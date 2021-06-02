@@ -40,6 +40,8 @@ Just a collection of resources and thoughts
 
 ### [The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
 
+### [Old English Online Grammar Guide](https://oldenglish.info/courseindex.html)
+
 # Phonology
 
 ### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
