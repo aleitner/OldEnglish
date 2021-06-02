@@ -2,7 +2,6 @@
 
 Just a collection of resources and thoughts
 
-
 # Beginner Textbooks
 
 ### [A Guide to Old English, 8th Edition](https://www.amazon.com/Guide-Old-English-Bruce-Mitchell/dp/0470671076) 
@@ -21,22 +20,24 @@ Just a collection of resources and thoughts
 
 ### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
 
-
 ### ~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
 
 # History Books
 
-
+???
 
 # Youtube Channels
 
 ### [Simon Roper](https://www.youtube.com/channel/UChnRk6mxWsSOGElm8phdSxw)
 
-
 # Online Courses
 
 ### [Elementary Old English](https://app.memrise.com/course/1109099/elementary-old-english-with-audio/) *WIP*
 
+# Corpus
+
+### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)
+](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
 
 # Useful Apps
 
