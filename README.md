@@ -4,13 +4,27 @@ Just a collection of resources and thoughts
 
 # Beginner Textbooks
 
-### [A Guide to Old English, 8th Edition](https://www.amazon.com/Guide-Old-English-Bruce-Mitchell/dp/0470671076) 
+### [An Introduction to Old English, 2021 Edition](https://www.amazon.com/dp/1603293116)
 
 ### [Complete Old English, 2019 Edition](https://www.amazon.com/dp/1473627923)
 
-### [An Introduction to Old English, 2021 Edition](https://www.amazon.com/dp/1603293116)
+### [A Guide to Old English, 8th Edition](https://www.amazon.com/dp/0470671076) 
 
 ### [Learn Old English with Leofwin, 2013 Edition](https://www.amazon.com/dp/189828167X)
+
+### [Beginning Old English, 2nd ed. 2013 Edition](https://www.amazon.com/dp/0230301398)
+
+### [The Cambridge Old English Reader, 2nd Edition](https://www.amazon.com/dp/1107641314)
+
+### [An Introductory Grammar of Old English, 2014 Edition](https://www.amazon.com/dp/086698514X)
+
+### [Elementary Old English, 2011 Edition](https://www.amazon.com/dp/1466269537)
+
+### [An Old English Grammar and Exercise Book, 2019 Edition](https://www.amazon.com/dp/0469337346)
+
+### [Drout's Quick and Easy Old English, 2012 Edition](https://www.amazon.com/dp/B009DVC2AI)
+
+### [Reading Old English](https://www.amazon.com/dp/1933202742)
 
 # Word Hoards
 
@@ -19,6 +33,12 @@ Just a collection of resources and thoughts
 ### [Word-Hoard: An Introduction to Old English Vocabulary, 2nd Edition](https://www.amazon.com/dp/0300035063)
 
 ### [The Wordhord: Daily Life in Old English, 2021 Edition](https://www.waterstones.com/book/the-wordhord/hana-videen/9781788166102)
+
+### [A Concise Anglo-Saxon Dictionary](https://www.amazon.com/dp/1617201871)
+
+# Grammar Sources
+
+### [The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
 
 # Phonology
 
@@ -38,11 +58,13 @@ Just a collection of resources and thoughts
 
 ### [Elementary Old English](https://app.memrise.com/course/1109099/elementary-old-english-with-audio/) *WIP*
 
-# Corpus
+# Corpus and Other Texts
 
 ### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
 
 ### [The Online Corpus of Old English Poetry (OCOEP)](http://www.oepoetry.ca/)
+
+### [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
 
 # Useful Apps
 
