@@ -42,6 +42,8 @@ Just a collection of resources and thoughts
 
 ### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
 
+### [The Online Corpus of Old English Poetry (OCOEP)](http://www.oepoetry.ca/)
+
 # Useful Apps
 
 ### [Futhorc Keyboard, iPhone](https://apps.apple.com/us/app/anglo-saxon-futhorc-keyboard/id1301122103)
