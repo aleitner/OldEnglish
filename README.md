@@ -14,6 +14,8 @@ Just a collection of resources and thoughts
 
 # Word Hoards
 
+### [Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
+
 ### [Word-Hoard: An Introduction to Old English Vocabulary, 2nd Edition](https://www.amazon.com/dp/0300035063)
 
 ### [The Wordhord: Daily Life in Old English, 2021 Edition](https://www.waterstones.com/book/the-wordhord/hana-videen/9781788166102)
