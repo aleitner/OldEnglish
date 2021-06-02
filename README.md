@@ -10,6 +10,8 @@ Just a collection of resources and thoughts
 
 ### [An Introduction to Old English, 2021 Edition](https://www.amazon.com/dp/1603293116)
 
+### [Learn Old English with Leofwin, 2013 Edition](https://www.amazon.com/dp/189828167X)
+
 # Word Hoards
 
 ### [Word-Hoard: An Introduction to Old English Vocabulary, 2nd Edition](https://www.amazon.com/dp/0300035063)
@@ -36,8 +38,7 @@ Just a collection of resources and thoughts
 
 # Corpus
 
-### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)
-](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
+### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
 
 # Useful Apps
 
