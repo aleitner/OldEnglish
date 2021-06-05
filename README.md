@@ -52,7 +52,7 @@ Just a collection of resources and thoughts
 
 ### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright
 
-### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook)
+### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook) by Cook
 
 # Phonology
 
