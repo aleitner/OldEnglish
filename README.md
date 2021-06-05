@@ -44,8 +44,6 @@ Just a collection of resources and thoughts
 
 ### [The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
 
-### [Old English Online Grammar Guide](https://oldenglish.info/courseindex.html)
-
 ### [King Alfred's Grammar](https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html) by Drout
 
 # Phonology
@@ -63,6 +61,8 @@ Just a collection of resources and thoughts
 ### [Simon Roper](https://www.youtube.com/channel/UChnRk6mxWsSOGElm8phdSxw)
 
 # Online Courses
+
+### [Old English Online Grammar Guide](https://oldenglish.info/courseindex.html)
 
 ### [Elementary Old English](https://app.memrise.com/course/1109099/elementary-old-english-with-audio/) *WIP*
 
