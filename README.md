@@ -26,6 +26,8 @@ Just a collection of resources and thoughts
 
 ### [Reading Old English](https://www.amazon.com/dp/1933202742)
 
+### [Old English for Reading](https://pdfcoffee.com/oldenglishforreading-pdf-free.html)
+
 # Word Hoards
 
 ### [Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
@@ -41,6 +43,8 @@ Just a collection of resources and thoughts
 ### [The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
 
 ### [Old English Online Grammar Guide](https://oldenglish.info/courseindex.html)
+
+### [King Alfred's Grammar](https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html) by Drout
 
 # Phonology
 
