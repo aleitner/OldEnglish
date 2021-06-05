@@ -52,6 +52,8 @@ Just a collection of resources and thoughts
 
 ### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright
 
+### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook)
+
 # Phonology
 
 ### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
