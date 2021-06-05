@@ -28,6 +28,8 @@ Just a collection of resources and thoughts
 
 ### [Old English for Reading](https://pdfcoffee.com/oldenglishforreading-pdf-free.html)
 
+### [Learning Old English 2019 : A Course with Audio-Visual CD and Exercises](https://www.bookdepository.com/Learning-Old-English-2019-O-D-Macrae-Gibson/9781857520842)
+
 # Word Hoards
 
 ### [Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
