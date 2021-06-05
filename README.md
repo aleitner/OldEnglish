@@ -46,6 +46,12 @@ Just a collection of resources and thoughts
 
 ### [King Alfred's Grammar](https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html) by Drout
 
+## Old Grammar Textbooks
+
+### [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
+
+### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright
+
 # Phonology
 
 ### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
