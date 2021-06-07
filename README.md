@@ -32,6 +32,8 @@ Just a collection of resources and thoughts
 
 ### [Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically the @@@ edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
 
+### [Old English Language and Literature, 1972]()
+
 # Word Hoards
 
 ### [Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
@@ -48,7 +50,11 @@ Just a collection of resources and thoughts
 
 ### [King Alfred's Grammar](https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html) by Drout
 
-### [An Old English Grammar](https://www.amazon.com/old-English-grammar-Wardale/dp/B0007JK63K) by Campbell
+### [An Old English Grammar, 1959](https://www.amazon.com/old-English-grammar-Wardale/dp/B0007JK63K) by Campbell
+
+### [A Grammar of Old English v1: Phonology, 1992]() by Hogg
+
+### [A Grammar of Old English v2: Morphology, 2011]() by Hogg and Fulk
 
 ## Old Grammar Textbooks
 
@@ -66,6 +72,8 @@ Just a collection of resources and thoughts
 
 ### [The Elements of Old English, 10th ed. 1955](https://www.amazon.com/Elements-Old-English-Elementary-Selections/dp/B001P986P6)
 
+### [Sweet's Anglo-Saxon Primer and Reader]()
+
 # Phonology
 
 ### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
@@ -75,6 +83,32 @@ Just a collection of resources and thoughts
 # History Books
 
 ???
+
+## Historical and Comparative Grammars
+
+### [Deutsche Grammatik]() by Grimm
+
+### [A Comparative Grammar of the Teutonic Language, 1870]() by Helfenstein
+
+### [A Comparative Grammar of the Anglo-Saxon Language, 1888]() by March
+
+### [Comparative Germanic Grammar, 1939]() by Prokosch
+
+### [Germanische Sprachwissenschaft bI-III]() by Krahe and Meid, 1960s
+
+### [Early Germanic Grammar]() by Voyles
+
+### [A Linguistic History of English v1: From Proto-Indo-European to Proto-Germanic, 2nd ed. 2017]() by Ringe
+
+### [A Linguistic History of English v2: the Development of Old English, 2014](https://www.ling.upenn.edu/~kroch/courses/lx310/handouts/ringe-taylor-proofs.pdf) by Ringe and Taylor
+
+### [A Comparative Grammar of the Early Germanic Languages, 2018](https://www.jbe-platform.com/content/books/9789027263131) by Fulk
+
+### [Old English and its Closest Relatives]() by Robinson
+
+### [Old English and the Continental Germanic Languages]() by Nielsen
+
+### [A Glottometric Sub-grouping of the Early Germanic Languages, 2018](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8473&context=etd_theses) by Agee
 
 # Youtube Channels
 
@@ -103,6 +137,12 @@ Just a collection of resources and thoughts
 ### [An Anglo-Saxon Reader, 1919](https://archive.org/details/anglosaxonreader00wyatuoft) by Wyatt
 
 ### [The Threshold of Anglo-Saxon, 2nd ed. 1935](http://hdl.handle.net/1959.9/499407) by Wyatt
+
+### [Sweet's Anglo-Saxon Reader pt 1]()
+
+### [Sweet's Anglo-Saxon Reader pt 2]()
+
+
 
 # Useful Apps
 
