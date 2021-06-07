@@ -30,7 +30,7 @@ Just a collection of resources and thoughts
 
 ### [Learning Old English 2019 : A Course with Audio-Visual CD and Exercises](https://www.bookdepository.com/Learning-Old-English-2019-O-D-Macrae-Gibson/9781857520842)
 
-### [Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically the 3rd edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
+### [Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically the @@@ edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
 
 # Word Hoards
 
@@ -86,6 +86,8 @@ Just a collection of resources and thoughts
 
 ### [Elementary Old English](https://app.memrise.com/course/1109099/elementary-old-english-with-audio/) *WIP*
 
+### [ENGL 6011/7011 Fall 2020 Old English](https://youtube.com/playlist?list=PLVN0KkTC1M3ohXgRym_2DwxP25VUdqqcY)
+
 # Corpus and Other Texts
 
 ### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
@@ -95,6 +97,12 @@ Just a collection of resources and thoughts
 ### [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
 
 ## Readers
+
+### [An Anglo-Saxon Reader, 3rd ed. 1913](https://en.wikisource.org/wiki/Bright%27s_Anglo-Saxon_Reader) (online), [4th ed.](https://archive.org/details/AnAnglo-saxonReader) (scans). AKA "Bright's Anglo-Saxon Reader".
+
+### [An Anglo-Saxon Reader, 1919](https://archive.org/details/anglosaxonreader00wyatuoft) by Wyatt
+
+### [The Threshold of Anglo-Saxon, 2nd ed. 1935](http://hdl.handle.net/1959.9/499407) by Wyatt
 
 # Useful Apps
 
