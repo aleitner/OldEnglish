@@ -62,7 +62,7 @@ Just a collection of resources and thoughts
 
 ### [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
 
-### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright. There is a 3rd edition from 1925. $add link later
+### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright. There is a 3rd edition from 1925. @@add link later
 
 ### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook) by Cook
 
@@ -86,7 +86,7 @@ Just a collection of resources and thoughts
 
 ???
 
-## Historical and Comparative Grammars (need links)
+## Historical and Comparative Grammars (@@need links)
 
 ### [Deutsche Grammatik]() by Grimm
 
