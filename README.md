@@ -30,6 +30,8 @@ Just a collection of resources and thoughts
 
 ### [Learning Old English 2019 : A Course with Audio-Visual CD and Exercises](https://www.bookdepository.com/Learning-Old-English-2019-O-D-Macrae-Gibson/9781857520842)
 
+### [Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically the 3rd edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
+
 # Word Hoards
 
 ### [Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
@@ -46,13 +48,23 @@ Just a collection of resources and thoughts
 
 ### [King Alfred's Grammar](https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html) by Drout
 
+### [An Old English Grammar](https://www.amazon.com/old-English-grammar-Wardale/dp/B0007JK63K) by Campbell
+
 ## Old Grammar Textbooks
 
 ### [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
 
-### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright
+### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright. There is a 3rd edition from 1925. $add link later
 
 ### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook) by Cook
+
+### [An Old English Grammar, 2nd ed. 1957](https://www.amazon.com/Old-English-Grammar-Religious-Studies/dp/0875805604/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) by Quirk and Wrenn
+
+### [An Old English Grammar, 1922](https://www.amazon.com/old-English-grammar-Wardale/dp/B0007JK63K) by Wardale. The 1922 edition is the only one, though it has been reprinted many times.
+
+### [An Introduction to Old English, 1955](https://www.amazon.com/introduction-Old-English-G-Brook/dp/B0007K422U/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=) by Brook
+
+### [The Elements of Old English, 10th ed. 1955](https://www.amazon.com/Elements-Old-English-Elementary-Selections/dp/B001P986P6)
 
 # Phonology
 
@@ -81,6 +93,8 @@ Just a collection of resources and thoughts
 ### [The Online Corpus of Old English Poetry (OCOEP)](http://www.oepoetry.ca/)
 
 ### [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
+
+## Readers
 
 # Useful Apps
 
