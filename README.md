@@ -86,7 +86,7 @@ Just a collection of resources and thoughts
 
 ???
 
-## Historical and Comparative Grammars
+## Historical and Comparative Grammars (need links)
 
 ### [Deutsche Grammatik]() by Grimm
 
