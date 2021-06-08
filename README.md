@@ -126,7 +126,7 @@ Just a collection of resources and thoughts
 
 ### ~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
 
-# Syntax
+# Syntax (needs links)
 
 ### [Old English Syntax](), 1985 in 2 volumes, by Mitchell
 
