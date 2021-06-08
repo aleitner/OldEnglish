@@ -190,7 +190,7 @@ Just a collection of resources and thoughts
 
 ### [Sweet's Anglo-Saxon Reader pt 2]()
 
-### [Seven Old English Poems] by Pope
+### [Seven Old English Poems]() by Pope
 
 # Useful Apps
 
