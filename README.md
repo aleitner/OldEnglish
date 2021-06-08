@@ -152,8 +152,6 @@ Just a collection of resources and thoughts
 
 ### [A Unified Account of the Old English Metrical line](https://su.diva-portal.org/smash/get/diva2:1153457/FULLTEXT01.pdf), 2017 by Cooper
 
-### [A linguistic approach to the poetics of Old English](https://www.proquest.com/dissertations-theses/linguistic-approach-poetics-old-english/docview/304817749/se-2?accountid=8361), 2007 by Beechy
-
 ### Beowulf and Old Germanic Meter
 
 ### Old English Meter: An Introduction, by Terasawa
@@ -167,6 +165,10 @@ Just a collection of resources and thoughts
 ### The Composition of Old English Poetry, 1997 by Momma
 
 ### A History of Old English Meter, 1992 by Fulk
+
+### [A linguistic approach to the poetics of Old English](https://www.proquest.com/dissertations-theses/linguistic-approach-poetics-old-english/docview/304817749/se-2?accountid=8361), 2007 by Beechy
+
+### The Poetics of Old English, 2010 by Beechy
 
 # Runes
 
