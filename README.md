@@ -42,6 +42,10 @@ Just a collection of resources and thoughts
 
 ### [Old English: Grammar and Reader](https://www.amazon.com/Old-English-Grammar-Robert-Diamond/dp/0814315100) by Diamond
 
+### [An Invitation to Old English and Anglo-Saxon England](https://www.amazon.com/Invitation-Old-English-Anglo-Saxon-England/dp/0631174362), 1995 by Mitchell
+
+### [First Steps in Old English, 3rd ed. 2004](https://www.amazon.com/gp/product/B00DO8ZYKG/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5), by Pollington
+
 # Word Hoards
 
 ### [Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
@@ -64,6 +68,8 @@ Just a collection of resources and thoughts
 
 ### [A Grammar of Old English v2: Morphology, 2011]() by Hogg and Fulk
 
+### Substantival Inflection in Early Old English, 1938 by Dahl
+
 ## Old Grammar Textbooks
 
 ### [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
@@ -83,36 +89,6 @@ Just a collection of resources and thoughts
 ### [Sweet's Anglo-Saxon Primer and Reader]()
 
 ### Carpenter's Old English Grammar
-
-# Phonology
-
-### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
-
-### Alliteration and Sound Change in Early English, 2003 by Minkova
-
-### ~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
-
-# Syntax
-
-### [Old English Syntax](), 1985 in 2 volumes, by Mitchell
-
-### Syntax, Chapter 5 of *A Guide to Old English*, by Mitchell
-
-### Syntax, Chapter 8 of *A Linguistic History of English vol. 2: The Development of Old English*, 2014 by Taylor
-
-### Syntax, Chapter 4 of *The Cambridge History of English vol. 1*, 1992 by Traugott
-
-### Old English Syntax: A Handbook, 1983 by McLaughlin
-
-### Old English Syntax and Style, 1982 by Yerkes
-
-### Old English Syntax and Style, 1940 by Andrews
-
-### The Development of Word Order Patters in Old English, 1983 by Bean
-
-# History Books
-
-???
 
 ## Historical and Comparative Grammars (need links)
 
@@ -142,6 +118,32 @@ Just a collection of resources and thoughts
 
 ### [Notes on the Development of the Principal Sounds of Indo-European through Proto-Germanic and West Germanic in Old English](https://www.jstor.org/stable/10.3138/j.ctvfp6450), 1951 by Scargill
 
+# Phonology
+
+### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
+
+### Alliteration and Sound Change in Early English, 2003 by Minkova
+
+### ~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
+
+# Syntax
+
+### [Old English Syntax](), 1985 in 2 volumes, by Mitchell
+
+### Syntax, Chapter 5 of *A Guide to Old English*, by Mitchell
+
+### Syntax, Chapter 8 of *A Linguistic History of English vol. 2: The Development of Old English*, 2014 by Taylor
+
+### Syntax, Chapter 4 of *The Cambridge History of English vol. 1*, 1992 by Traugott
+
+### Old English Syntax: A Handbook, 1983 by McLaughlin
+
+### Old English Syntax and Style, 1982 by Yerkes
+
+### Old English Syntax and Style, 1940 by Andrews
+
+### The Development of Word Order Patters in Old English, 1983 by Bean
+
 # Meter (need links)
 
 ### [A Unified Account of the Old English Metrical line](https://su.diva-portal.org/smash/get/diva2:1153457/FULLTEXT01.pdf), 2017 by Cooper
@@ -157,6 +159,12 @@ Just a collection of resources and thoughts
 ### Early English Meter, 2005 by Bredehoft
 
 ### The Composition of Old English Poetry, 1997 by Momma
+
+# Runes
+
+### [An Introduction to English Runes, 2nd ed. 2006](https://www.amazon.com/Introduction-English-Runes-R-I-Page/dp/085115946X) by Page
+
+### [Rudiments of Runelore, 3rd ed. 1995](https://www.amazon.com/gp/product/1898281491/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i0) by Pollington
 
 # Youtube Channels
 
@@ -197,3 +205,15 @@ Just a collection of resources and thoughts
 ### [Futhorc Keyboard, iPhone](https://apps.apple.com/us/app/anglo-saxon-futhorc-keyboard/id1301122103)
 
 ### [LP Old English, iPhone](https://apps.apple.com/us/app/lp-old-english/id528357612) - Vocabulary practice app
+
+# History & Culture
+
+## History
+
+### The Anglo-Saxon World
+
+### The Viking Wars
+
+## Culture
+
+### [Stephen Pollington's books](https://www.amazon.com/Stephen-Pollington/e/B001HCVE1Y?ref_=dbs_p_pbk_r00_abau_000000)
