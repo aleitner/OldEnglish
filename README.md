@@ -144,9 +144,11 @@ Just a collection of resources and thoughts
 
 ### The Development of Word Order Patters in Old English, 1983 by Bean
 
-# Meter (need links)
+# Meter & Poetry (need links)
 
 ### [A Unified Account of the Old English Metrical line](https://su.diva-portal.org/smash/get/diva2:1153457/FULLTEXT01.pdf), 2017 by Cooper
+
+### [A linguistic approach to the poetics of Old English](https://www.proquest.com/dissertations-theses/linguistic-approach-poetics-old-english/docview/304817749/se-2?accountid=8361), 2007 by Beechy
 
 ### Beowulf and Old Germanic Meter
 
@@ -159,6 +161,8 @@ Just a collection of resources and thoughts
 ### Early English Meter, 2005 by Bredehoft
 
 ### The Composition of Old English Poetry, 1997 by Momma
+
+### A History of Old English Meter, 1992 by Fulk
 
 # Runes
 
