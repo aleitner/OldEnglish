@@ -156,7 +156,7 @@ Just a collection of resources and thoughts
 
 ### Beowulf and Old Germanic Meter
 
-### Old English Meter: And Introduction by Terasawa
+### Old English Meter: An Introduction, by Terasawa
 
 ### A Comparative Study of Old English Meter
 
