@@ -6,7 +6,7 @@ Just a collection of resources and thoughts
 
 ### [An Introduction to Old English, 2021 Edition](https://www.amazon.com/dp/1603293116) by Evans
 
-### [An Introduction to Old English](https://gustavorubinoernesto.com/wp-content/uploads/2021/11/Richard-Hogg-An-Introduction-to-Old-English-Edinburgh-University.pdf) by Hogg @@edition?
+### [An Introduction to Old English](https://gustavorubinoernesto.com/wp-content/uploads/2021/11/Richard-Hogg-An-Introduction-to-Old-English-Edinburgh-University.pdf) by Hogg. There is a 2nd edition from 2012.
 
 ### [Complete Old English, 2019 Edition](https://www.amazon.com/dp/1473627923)
 
