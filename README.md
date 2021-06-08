@@ -114,7 +114,7 @@ Just a collection of resources and thoughts
 
 ???
 
-## Historical and Comparative Grammars (@@need links)
+## Historical and Comparative Grammars (need links)
 
 ### [Deutsche Grammatik]() by Grimm
 
@@ -142,7 +142,7 @@ Just a collection of resources and thoughts
 
 ### [Notes on the Development of the Principal Sounds of Indo-European through Proto-Germanic and West Germanic in Old English](https://www.jstor.org/stable/10.3138/j.ctvfp6450), 1951 by Scargill
 
-# Meter
+# Meter (need links)
 
 ### [A Unified Account of the Old English Metrical line](https://su.diva-portal.org/smash/get/diva2:1153457/FULLTEXT01.pdf), 2017 by Cooper
 
