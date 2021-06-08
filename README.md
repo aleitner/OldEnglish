@@ -68,7 +68,7 @@ Just a collection of resources and thoughts
 
 ### [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
 
-### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright. There is a [3rd edition](https://www.amazon.com/Old-English-Grammar-Joseph-Wright/dp/0198119232) from 1925.
+### [Old English Grammar, 3rd ed. 1925](https://archive.org/details/in.ernet.dli.2015.43807) by Wright & Wright
 
 ### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook) by Cook
 
