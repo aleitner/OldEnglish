@@ -166,6 +166,10 @@ Just a collection of resources and thoughts
 
 ### [Rudiments of Runelore, 3rd ed. 1995](https://www.amazon.com/gp/product/1898281491/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i0) by Pollington
 
+### [Runes](https://www.amazon.com/Runes-Ancient-Scripts-Martin-Findell/dp/1606064487), 2015 by Findell
+
+### Runes, 1989 by Elliot
+
 # Youtube Channels
 
 ### [Simon Roper](https://www.youtube.com/channel/UChnRk6mxWsSOGElm8phdSxw)
