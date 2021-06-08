@@ -166,7 +166,7 @@ Just a collection of resources and thoughts
 
 ### A History of Old English Meter, 1992 by Fulk
 
-### [A linguistic approach to the poetics of Old English](https://www.proquest.com/dissertations-theses/linguistic-approach-poetics-old-english/docview/304817749/se-2?accountid=8361), 2007 by Beechy
+### [A Linguistic Approach to the Poetics of Old English](https://www.proquest.com/dissertations-theses/linguistic-approach-poetics-old-english/docview/304817749/se-2?accountid=8361), 2007 by Beechy
 
 ### The Poetics of Old English, 2010 by Beechy
 
