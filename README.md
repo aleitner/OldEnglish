@@ -32,9 +32,15 @@ Just a collection of resources and thoughts
 
 ### [Learning Old English 2019 : A Course with Audio-Visual CD and Exercises](https://www.bookdepository.com/Learning-Old-English-2019-O-D-Macrae-Gibson/9781857520842)
 
-### [Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically the @@@ edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
+### [Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically a newer edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
+
+### [Old English: An Introduction](https://www.amazon.com/Old-English-Introduction-R-J-Kispert/dp/003083256X) by Kispert
 
 ### [Old English Language and Literature, 1972]()
+
+### [A Gentle Introduction to Old English](https://www.amazon.com/Gentle-Introduction-Old-English/dp/1551118416) by McGillivray
+
+### [Old English: Grammar and Reader](https://www.amazon.com/Old-English-Grammar-Robert-Diamond/dp/0814315100) by Diamond
 
 # Word Hoards
 
@@ -62,7 +68,7 @@ Just a collection of resources and thoughts
 
 ### [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
 
-### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright. There is a 3rd edition from 1925. @@add link later
+### [Old English Grammar, 2nd ed. 1914](https://archive.org/details/oldenglishgramma00wrig) by Wright & Wright. There is a [3rd edition](https://www.amazon.com/Old-English-Grammar-Joseph-Wright/dp/0198119232) from 1925.
 
 ### [A First Book In Old English, 3rd ed. 1921](https://archive.org/details/firstbookofolden00cook) by Cook
 
@@ -76,11 +82,33 @@ Just a collection of resources and thoughts
 
 ### [Sweet's Anglo-Saxon Primer and Reader]()
 
+### Carpenter's Old English Grammar
+
 # Phonology
 
 ### [Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
 
+### Alliteration and Sound Change in Early English, 2003 by Minkova
+
 ### ~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
+
+# Syntax
+
+### [Old English Syntax](), 1985 in 2 volumes, by Mitchell
+
+### Syntax, Chapter 5 of *A Guide to Old English*, by Mitchell
+
+### Syntax, Chapter 8 of *A Linguistic History of English vol. 2: The Development of Old English*, 2014 by Taylor
+
+### Syntax, Chapter 4 of *The Cambridge History of English vol. 1*, 1992 by Traugott
+
+### Old English Syntax: A Handbook, 1983 by McLaughlin
+
+### Old English Syntax and Style, 1982 by Yerkes
+
+### Old English Syntax and Style, 1940 by Andrews
+
+### The Development of Word Order Patters in Old English, 1983 by Bean
 
 # History Books
 
@@ -112,6 +140,24 @@ Just a collection of resources and thoughts
 
 ### [A Glottometric Sub-grouping of the Early Germanic Languages, 2018](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8473&context=etd_theses) by Agee
 
+### [Notes on the Development of the Principal Sounds of Indo-European through Proto-Germanic and West Germanic in Old English](https://www.jstor.org/stable/10.3138/j.ctvfp6450), 1951 by Scargill
+
+# Meter
+
+### [A Unified Account of the Old English Metrical line](https://su.diva-portal.org/smash/get/diva2:1153457/FULLTEXT01.pdf), 2017 by Cooper
+
+### Beowulf and Old Germanic Meter
+
+### Old English Meter: And Introduction by Terasawa
+
+### A Comparative Study of Old English Meter
+
+### Old English Meter and Linguistic Theory, 1987 by Russom
+
+### Early English Meter, 2005 by Bredehoft
+
+### The Composition of Old English Poetry, 1997 by Momma
+
 # Youtube Channels
 
 ### [Simon Roper](https://www.youtube.com/channel/UChnRk6mxWsSOGElm8phdSxw)
@@ -132,7 +178,7 @@ Just a collection of resources and thoughts
 
 ### [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
 
-## Readers
+## Readers (some need links)
 
 ### [An Anglo-Saxon Reader, 3rd ed. 1913](https://en.wikisource.org/wiki/Bright%27s_Anglo-Saxon_Reader) (online), [4th ed.](https://archive.org/details/AnAnglo-saxonReader) (scans). AKA "Bright's Anglo-Saxon Reader".
 
@@ -144,7 +190,7 @@ Just a collection of resources and thoughts
 
 ### [Sweet's Anglo-Saxon Reader pt 2]()
 
-
+### [Seven Old English Poems] by Pope
 
 # Useful Apps
 
