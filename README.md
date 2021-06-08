@@ -68,6 +68,8 @@ Just a collection of resources and thoughts
 
 ### [A Grammar of Old English v2: Morphology, 2011]() by Hogg and Fulk
 
+### Old English: A Linguistic Introduction
+
 ### Substantival Inflection in Early Old English, 1938 by Dahl
 
 ## Old Grammar Textbooks
@@ -117,6 +119,8 @@ Just a collection of resources and thoughts
 ### [A Glottometric Sub-grouping of the Early Germanic Languages, 2018](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8473&context=etd_theses) by Agee
 
 ### [Notes on the Development of the Principal Sounds of Indo-European through Proto-Germanic and West Germanic in Old English](https://www.jstor.org/stable/10.3138/j.ctvfp6450), 1951 by Scargill
+
+### [Old English: A Historical Linguistic Companion](), 1994 by Lass
 
 # Phonology
 
