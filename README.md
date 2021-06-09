@@ -196,6 +196,8 @@ Just a collection of resources and thoughts
 
 ### [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
 
+### [The Complete Corpus of Anglo-Saxon Poetry](https://www.sacred-texts.com/neu/ascp/)
+
 ### [The Online Corpus of Old English Poetry (OCOEP)](http://www.oepoetry.ca/)
 
 ### [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
