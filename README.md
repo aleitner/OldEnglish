@@ -148,7 +148,7 @@ Just a collection of resources and thoughts
 
 ### The Development of Word Order Patters in Old English, 1983 by Bean
 
-# Meter & Poetry (need links)
+# Meter & Poetry (needs links)
 
 ### [A Unified Account of the Old English Metrical line](https://su.diva-portal.org/smash/get/diva2:1153457/FULLTEXT01.pdf), 2017 by Cooper
 
