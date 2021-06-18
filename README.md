@@ -44,7 +44,9 @@ Just a collection of resources and thoughts
 
 ### [An Invitation to Old English and Anglo-Saxon England](https://www.amazon.com/Invitation-Old-English-Anglo-Saxon-England/dp/0631174362), 1995 by Mitchell
 
-### [First Steps in Old English, 3rd ed. 2004](https://www.amazon.com/gp/product/B00DO8ZYKG/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5), by Pollington
+### [First Steps in Old English, 3rd ed. 2004](https://www.amazon.com/gp/product/B00DO8ZYKG/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5) by Pollington
+
+### [The Earliest English: An Introduction to Old English Language](https://www.amazon.com/Earliest-English-Introduction-Old-Language/dp/0582404746) by McCully & Hilles
 
 # Word Hoards
 
