@@ -58,6 +58,8 @@ Just a collection of resources and thoughts
 
 ### [A Concise Anglo-Saxon Dictionary](https://www.amazon.com/dp/1617201871)
 
+### [The Old-Engli.sh Dictionary](https://old-engli.sh/dictionary.php) (Johnson's 1927) - an online dictionary
+
 # Grammar Sources
 
 ### [The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
