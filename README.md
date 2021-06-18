@@ -134,6 +134,8 @@ Just a collection of resources and thoughts
 
 ### ~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
 
+### [Old English Breaking and its Germanic Analogues](https://www.degruyter.com/document/doi/10.1515/9783111356501/html)
+
 # Syntax (needs links)
 
 ### [Old English Syntax](), 1985 in 2 volumes, by Mitchell
