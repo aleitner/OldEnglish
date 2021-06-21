@@ -154,10 +154,9 @@ Just a collection of resources and thoughts
 
 ### The Development of Word Order Patters in Old English, 1983 by Bean
 
-* [Syntax of West Germanic: The Syntax of Old English and Old High German](https://www.amazon.co.uk/Syntax-West-Germanic-English-German/dp/3874529460) by Graeme & Bernhardt, 2002
+### [Syntax of West Germanic: The Syntax of Old English and Old High German](https://www.amazon.co.uk/Syntax-West-Germanic-English-German/dp/3874529460) by Graeme & Bernhardt, 2002
 
-### [The Influence of Text Type on Word Order of Old Germanic Languages
-A Corpus-Based Contrastive Study of Old English and Old High German](https://www.peterlang.com/view/title/13312) by Anna Cichosz, 2010
+### [The Influence of Text Type on Word Order of Old Germanic Languages A Corpus-Based Contrastive Study of Old English and Old High German](https://www.peterlang.com/view/title/13312) by Anna Cichosz, 2010
 
 ### [Element Order in Old English and Old High German Translations](https://benjamins.com/catalog/nss.28) by Anna Cichosz, 2016
 
