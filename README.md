@@ -116,7 +116,7 @@ Just a collection of resources and thoughts
 
 ### [A Comparative Grammar of the Early Germanic Languages, 2018](https://www.jbe-platform.com/content/books/9789027263131) by Fulk
 
-### West Germanic Derivation, Inflection and Compounding, 1974 by Voyles
+### [West Germanic Derivation, Inflection and Compounding, 1974]() by Voyles
 
 ### [Old English and its Closest Relatives]() by Robinson
 
