@@ -236,6 +236,10 @@ Just a collection of resources and thoughts
 
 ### [LP Old English, iPhone](https://apps.apple.com/us/app/lp-old-english/id528357612) - Vocabulary practice app
 
+# Literature
+
+### [Weaving Words and Binding Bodies: The Poetics of Human Experience in Old English Literature](https://www.amazon.com/Weaving-Words-Binding-Bodies-Anglo-Saxon/dp/1442637226)
+
 # History & Culture
 
 ## History
