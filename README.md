@@ -240,6 +240,8 @@ Just a collection of resources and thoughts
 
 ### [Weaving Words and Binding Bodies: The Poetics of Human Experience in Old English Literature](https://www.amazon.com/Weaving-Words-Binding-Bodies-Anglo-Saxon/dp/1442637226)
 
+### [The Old English Translation of Bede’s Historia Ecclesiastica Gentis Anglorum in its Historical and Cultural Context](https://library.oapen.org/bitstream/id/2a75dac4-2b17-4d77-a0d8-1fa6557f7c63/610369.pdf)
+
 # History & Culture
 
 ## History
