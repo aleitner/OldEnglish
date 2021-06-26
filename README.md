@@ -230,6 +230,40 @@ Runes, 1989 by Elliot
 
 [Seven Old English Poems]() by Pope
 
+## Bible Texts
+
+### Wessex Gospels:
+
+[Matthew](https://archive.org/details/evangeliumsecun01briggoog)
+
+[Mark](https://archive.org/details/euangeliumsecun03briggoog)
+
+[Luke](https://archive.org/details/gospelsaintluke00briggoog)
+
+[John](https://archive.org/details/evangeliumsecun00briggoog)
+
+[Online version of Mark & Luke](https://en.wikisource.org/wiki/Portal:Biblio%C3%BE%C4%93ce)
+
+[online version of the wessex gospels](http://textusreceptusbibles.com/Wessex/40/1) - the format seems easier to use, but the edition is probably from the mid 1800s and doesn't have vowel length.
+
+### West Saxon/Northumbrian/Vulgate-with-gloss Parallel
+
+[Matthew](https://archive.org/details/gospelaccordingt00kemb)
+
+[Mark](https://archive.org/details/gospelaccordingt00skea)
+
+[Luke](https://archive.org/details/gospelaccording00skeagoog)
+
+[John](https://play.google.com/store/books/details?id=L7bnAAAAMAAJ&rdid=book-L7bnAAAAMAAJ&rdot=1let) (alternate link desired)
+
+[Translation of the Psalms, Genesis, Exodus, & Daniel into OE poetry](https://www.sacred-texts.com/neu/ascp/) - So some of it is more like a paraphrase. This site also has all the rest of the Old English poetry too and is listed again below.
+
+[a prose translation of the first 50 Psalms](https://cdn.ymaws.com/www.medievalacademy.org/resource/resmgr/maa_books_online/oneill_0104_bkmrkdpdf.pdf)
+
+[Old English Hexateuch](http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_claudius_b_iv_fs001r) - Original manuscript. It has tons of cool illustrations
+
+[Old English Heptateuch (online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015004743160) | [pdf](https://www.forgottenbooks.com/en/books/TheOldEnglishVersionoftheHeptateuchAelfricsTreatiseontheOldandNewTestamentandHis_10921370))
+
 # Useful Apps
 
 [Futhorc Keyboard, iPhone](https://apps.apple.com/us/app/anglo-saxon-futhorc-keyboard/id1301122103)
