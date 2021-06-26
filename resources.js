@@ -45,7 +45,7 @@ function loadResources() {
         // Set Hyperlinks
         var urls = ""
         for (const [key, value] of Object.entries(resource.hyperlinks)) {
-            urls = `${urls} <a href="${value}">${key}</a>` 
+            urls = `${urls} <a target="_blank" rel="noopener noreferrer" href="${value}">${key}</a>` 
         }
 
         hyperlinksCell.innerHTML = urls 
