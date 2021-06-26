@@ -12,8 +12,11 @@
     </header>
 
     <body onload="loadResources()">
-        <p class="font-weight-bold">Filter Tables</p>
-        <input class="form-control mb-4" id="tableSearch" type="text" placeholder="Search...">
+        <h1 id="titleHeader">Old English Resources</h1><a href=request_form.html>propose resource</a>
+
+        <br /> <br /> 
+
+        <input class="form-control mb-4" id="tableSearch" type="text" placeholder="Filter...">
 
         <table class="table table-bordered table-striped">
             <thead>
@@ -23,6 +26,7 @@
                 <th>URL</th>
                 <th>Year</th>
                 <th>Type</th>
+                <th>Tags</th>
             </tr>
             </thead>
             <tbody id="myTable">

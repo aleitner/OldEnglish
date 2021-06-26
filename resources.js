@@ -25,6 +25,7 @@ function loadResources() {
         var hyperlinksCell = row.insertCell(2);
         var dateCell = row.insertCell(3);
         var typeCell = row.insertCell(4);
+        var tagsCell = row.insertCell(5);
 
         titleCell.innerHTML = resource.title;
         dateCell.innerHTML = resource.date;
@@ -48,5 +49,15 @@ function loadResources() {
         }
 
         hyperlinksCell.innerHTML = urls 
+
+        var tags = ""
+        for(var j = 0; j < resource.tags.length; j++) {
+            tags = `${tags} ${resource.tags[j]},`
+        }
+
+        // Remove ending comma
+        tags = tags.slice(0, -1)
+
+        tagsCell.innerHTML = tags
     }
 }
