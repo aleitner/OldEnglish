@@ -36,7 +36,6 @@ function loadResources() {
             urls = `${urls} <a href="${value}">${key}</a>` 
         }
 
-        var urls = ""
         for (const [key, value] of Object.entries(resource.purchase)) {
             urls = `${urls} <a href="${value}">${key}</a>` 
         }
