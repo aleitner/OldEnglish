@@ -6,7 +6,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    
-        <script src="resources.js"></script>
+        <script src="request_form.js"></script>
         <link rel="stylesheet" href="resources.css">
     </header>
 
@@ -23,7 +23,7 @@
             <div class="form-group">
                 <label for="authors">Authors</label>
                 <input type="text" class="form-control" id="authors" aria-describedby="authorsHelp" placeholder="John Smith, James Franco">
-                <small id="authorsHelp" class="form-text text-muted">Separate authors by commas</small>
+                <button type="button" class="btn btn-success">Add another URL</button>
             </div>
             <div class="form-group">
                 <label for="date">Publication Year</label>
@@ -42,11 +42,13 @@
             <div class="form-group">
                 <label for="urls">URLs</label>
                 <input type="text" class="form-control" id="urlName" placeholder="amazon">
-                <input type="text" class="form-control" id="url" placeholder="https://amazon.com/bp/coolBook">
+                <input type="url" class="form-control" id="url" placeholder="https://amazon.com/bp/coolBook">
+                <button type="button" class="btn btn-success">Add another URL</button>
             </div>
             <div class="form-group">
                 <label for="tags">tags</label>
                 <input type="text" class="form-control" id="tags" placeholder="grammar">
+                <button type="button" class="btn btn-success">Add another Tag</button>
             </div>
           </form>
 
