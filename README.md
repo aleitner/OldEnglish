@@ -244,7 +244,7 @@ Runes, 1989 by Elliot
 
 [Online version of Mark & Luke](https://en.wikisource.org/wiki/Portal:Biblio%C3%BE%C4%93ce)
 
-[online version of the wessex gospels](http://textusreceptusbibles.com/Wessex/40/1) - the format seems easier to use, but the edition is probably from the mid 1800s and doesn't have vowel length.
+[Online version of the wessex gospels](http://textusreceptusbibles.com/Wessex/40/1) - the format seems easier to use, but the edition is probably from the mid 1800s and doesn't have vowel length.
 
 ### West Saxon/Northumbrian/Vulgate-with-gloss Parallel
 
@@ -255,6 +255,8 @@ Runes, 1989 by Elliot
 [Luke](https://archive.org/details/gospelaccording00skeagoog)
 
 [John](https://play.google.com/store/books/details?id=L7bnAAAAMAAJ&rdid=book-L7bnAAAAMAAJ&rdot=1let) (alternate link desired)
+
+### Other Bible Texts
 
 [Translation of the Psalms, Genesis, Exodus, & Daniel into OE poetry](https://www.sacred-texts.com/neu/ascp/) - So some of it is more like a paraphrase. This site also has all the rest of the Old English poetry too and is listed again below.
 
