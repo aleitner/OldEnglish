@@ -184,6 +184,8 @@ A History of Old English Meter, 1992 by Fulk
 
 The Poetics of Old English, 2010 by Beechy
 
+[Revising Oral Theory: Formulaic Composition in Old English and Old Icelandic Verse](https://www.routledge.com/Revising-Oral-Theory-Formulaic-Composition-in-Old-English-and-Old-Icelandic/Acker/p/book/9781138985421), 1997 by Acker
+
 # Runes
 
 [An Introduction to English Runes, 2nd ed. 2006](https://www.amazon.com/Introduction-English-Runes-R-I-Page/dp/085115946X) by Page
