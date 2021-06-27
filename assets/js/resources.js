@@ -15,10 +15,15 @@ function isEmpty(str) {
 function loadResources() {
     var table = document.getElementById("myTable");
 
+    var rowIndex = 0;
     for(var i = 0; i < resources_json.length; i++) {
         var resource = resources_json[i];
 
-        var row = table.insertRow(i);
+        if (isEmpty(resource.title)) {
+            continue
+        }
+
+        var row = table.insertRow(rowIndex);
 
         var titleCell = row.insertCell(0);
         var authorsCell = row.insertCell(1);
@@ -59,5 +64,7 @@ function loadResources() {
         tags = tags.slice(0, -1)
 
         tagsCell.innerHTML = tags
+
+        rowIndex++
     }
 }
