@@ -1,19 +1,14 @@
-// Filter table
-$(document).ready(function(){
-    $("#tableSearch").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
-        $("#myTable tr").filter(function() {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-    });
-});
+// Sortable and filterable table
+$(document).ready(function() {
+    $('#resourcesTable').DataTable();
+} );
 
 function isEmpty(str) {
     return (!str || str.length === 0 );
 }
 
 function loadResources() {
-    var table = document.getElementById("myTable");
+    var table = document.getElementById("resourcesTableBody");
 
     var rowIndex = 0;
     for(var i = 0; i < resources_json.length; i++) {
