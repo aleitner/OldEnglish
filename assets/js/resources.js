@@ -1,8 +1,3 @@
-// Sortable and filterable table
-$(document).ready(function() {
-    $('#resourcesTable').DataTable();
-} );
-
 function isEmpty(str) {
     return (!str || str.length === 0 );
 }
@@ -61,5 +56,10 @@ function loadResources() {
         tagsCell.innerHTML = tags
 
         rowIndex++
+
+        
     }
+
+    // We want to load this after we populate the table
+    $('#resourcesTable').DataTable();
 }
