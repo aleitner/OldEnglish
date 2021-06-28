@@ -40,8 +40,11 @@ function loadResources() {
         // Set Hyperlinks
         var urls = ""
         for (const [key, value] of Object.entries(resource.hyperlinks)) {
-            urls = `${urls} <a target="_blank" rel="noopener noreferrer" href="${value}">${key}</a>` 
+            urls = `${urls} <a target="_blank" rel="noopener noreferrer" href="${value}">${key}</a>,` 
         }
+
+        // Remove ending comma
+        urls = urls.slice(0, -1)
 
         hyperlinksCell.innerHTML = urls 
 
@@ -56,8 +59,6 @@ function loadResources() {
         tagsCell.innerHTML = tags
 
         rowIndex++
-
-        
     }
 
     // We want to load this after we populate the table

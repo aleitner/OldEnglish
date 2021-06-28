@@ -46,7 +46,7 @@ var resources_json = [
         "desc": ""
     },
     {
-        "title" : "Learn Old English with Leofwinn",
+        "title" : "Learn Old English with Leofwin",
         "authors": ["Matt Love"],
         "date": "2013",
         "type" : "Book",
@@ -254,21 +254,21 @@ var resources_json = [
         "desc": ""
     },
     {
-        "title" : "",
-        "authors": [""],
-        "date": "",
-        "type" : "Book",
-        "hyperlinks": {"amazon": ""},
-        "tags": [],
-        "desc": ""
-    },
-    {
         "title" : "The Old-Engli.sh Dictionary",
         "authors": ["Mary Lynch Johnson"],
         "date": "1927",
         "type" : "Website",
         "hyperlinks": {"url": "https://old-engli.sh/dictionary.php"},
         "tags": ["dictionary"],
+        "desc": ""
+    },
+    {
+        "title" : "",
+        "authors": [""],
+        "date": "",
+        "type" : "Book",
+        "hyperlinks": {"amazon": ""},
+        "tags": [],
         "desc": ""
     },
 ]
