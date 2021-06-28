@@ -1,10 +1,41 @@
 var urlIDs = [0]
+var resources = [];
 
 function isEmpty(str) {
     return (!str || str.length === 0 );
 }
 
-function submitResource() {
+function addResource() {
+    let resource = getResource()
+    if (resource == null) {
+        alert("Please specify a title")
+        return
+    }
+
+    document.getElementById("title").value = "";
+    document.getElementById("authors").value = "";
+    document.getElementById("date").value = "";
+    document.getElementById("resource_type").value = "Book";
+    document.getElementById("tags").value = "";
+    document.getElementById("desc").value = "";
+
+    for(var i = 0; i < urlIDs.length; i++) {
+        if (i == 0) {
+            document.getElementById("urlName" + urlIDs[i]).value = "";
+            document.getElementById("url" + urlIDs[i]).value = "";
+        } else {
+            document.getElementById("urlName" + urlIDs[i]).remove()
+            document.getElementById("url" + urlIDs[i]).remove()
+        }
+    }
+
+    urlIDs = [0]
+
+    resources.push(resource)
+    document.getElementById("resources").innerHTML += `{${resource.title}} `
+}
+
+function getResource() {
     var resource = {
         "title" : "",
         "authors": [],
@@ -32,8 +63,7 @@ function submitResource() {
     }
 
     if (isEmpty(title)) {
-        alert("Please specify a title")
-        return
+        return null
     }
 
     resource.title = title
@@ -53,14 +83,34 @@ function submitResource() {
         });
     }
 
-    var url = buildURL(resource)
+    return resource
+}
+
+function submitResource() {
+    allResources = []
+    for (var i = 0; i < resources.length; i++) {
+        allResources.push(resources[i])
+    }
+
+    var resource = getResource()
+    if (resource != null) {
+        allResources.push(resource)
+    }
+
+    console.log(allResources)
+
+    var url = buildURL(allResources)
 
     window.open(url, '_blank')
 }
 
 function buildURL(resource) {
     var body = JSON.stringify(resource)
-    return encodeURI(`https://github.com/aleitner/OldEnglish/issues/new?title=New+Resource+Proposal&body=${body}`)
+
+    // We remove the [] from the ends
+    var trimmedBody = body.substring(1, body.length-1);
+
+    return encodeURI(`https://github.com/aleitner/OldEnglish/issues/new?title=New+Resource+Proposal&body=${trimmedBody}`)
 }
 
 function removeURL(num) {
