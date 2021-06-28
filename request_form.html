@@ -10,6 +10,9 @@
         <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+        <!-- tooltip -->
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+
         <!-- Local -->
         <script src="assets/js/request_form.js"></script>
         <link rel="stylesheet" href="assets/css/resources.css">
@@ -45,7 +48,7 @@
 
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="date">Publication Year</label>
-                <div class="col-sm-1">
+                <div class="col-sm-2">
                     <input type="number" class="form-control" id="date" placeholder="1991">
                 </div>
                 
@@ -102,7 +105,9 @@
 
             <br />
 
-            <button type="button" class="btn btn-secondary" onclick="addResource()">Add Another Resource</button> <button type="button" class="btn btn-primary" onclick="submitResource()">Submit</button>
+            <button type="button" class="btn btn-secondary" onclick="addResource()">Add Another Resource</button>
+            <button type="button" class="btn btn-secondary" onclick="copyResource()">Copy to Clipboard</button> 
+            <button type="button" class="btn btn-primary" onclick="submitResource()">Propose resources</button>
           </form>
 
           <div id="resources"></div>

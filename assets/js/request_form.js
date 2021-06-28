@@ -1,17 +1,13 @@
 var urlIDs = [0]
 var resources = [];
 
+// isEmpty checks if a string is empty
 function isEmpty(str) {
     return (!str || str.length === 0 );
 }
 
-function addResource() {
-    let resource = getResource()
-    if (resource == null) {
-        alert("Please specify a title")
-        return
-    }
-
+// clearResourceForm will remove all data from the form fields
+function clearResourceForm() {
     document.getElementById("title").value = "";
     document.getElementById("authors").value = "";
     document.getElementById("date").value = "";
@@ -30,12 +26,27 @@ function addResource() {
     }
 
     urlIDs = [0]
-
-    resources.push(resource)
-    document.getElementById("resources").innerHTML += `{${resource.title}} `
 }
 
-function getResource() {
+// addResource will add resource to array of resources
+function addResource() {
+    // Get current resource
+    let resource = getResourceFromPage()
+    if (resource == null) {
+        alert("Please specify a title")
+        return
+    }
+
+    // push resource to array
+    resources.push(resource)
+    document.getElementById("resources").innerHTML += `{${resource.title}} `
+
+    // clear out the form fields
+    clearResourceForm()
+}
+
+// getResourceFromPage will read the form fields and create a json object
+function getResourceFromPage() {
     var resource = {
         "title" : "",
         "authors": [],
@@ -86,16 +97,25 @@ function getResource() {
     return resource
 }
 
-function submitResource() {
+// getAllResources will get current resource 
+// along with the already existing array of previously added resources
+function getAllResources() {
     allResources = []
     for (var i = 0; i < resources.length; i++) {
         allResources.push(resources[i])
     }
 
-    var resource = getResource()
+    var resource = getResourceFromPage()
     if (resource != null) {
         allResources.push(resource)
     }
+
+    return allResources
+}
+
+// submitResource will open a URL to submit resources as an issue.
+function submitResource() {
+    allResources = getAllResources()
 
     if (allResources.length == 0) {
         alert("Please specify a resource")
@@ -107,6 +127,20 @@ function submitResource() {
     window.open(url, '_blank')
 }
 
+// copyResource will copy all resources to clipboard
+function copyResource() {
+    var el = document.createElement('textarea')
+    el.style.value = "hidden"
+    el.value = JSON.stringify(getAllResources())
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand('copy')
+    document.body.removeChild(el)
+
+    alert("Copied to clipboard!")
+}
+
+// buildURL will build a url to create an issue with resources JSON object as the description
 function buildURL(resource) {
     var body = JSON.stringify(resource)
 
@@ -116,6 +150,7 @@ function buildURL(resource) {
     return encodeURI(`https://github.com/aleitner/OldEnglish/issues/new?title=New+Resource+Proposal&body=${trimmedBody}`)
 }
 
+// removeURL will remove one of the URL fields
 function removeURL(num) {
     if (urlIDs.length <= 1) {
         return 
@@ -133,6 +168,7 @@ function removeURL(num) {
     }
 }
 
+// addURL will add a new URL field
 function addURL() {
     var lastDiv = document.getElementById("urlDiv" + urlIDs[urlIDs.length - 1])
 
