@@ -74,6 +74,10 @@ function removeURL(num) {
     if (index > -1) {
         urlIDs.splice(index, 1);
     }
+
+    if (urlIDs.length < 5) {
+        document.getElementById("addButton").disabled = false
+    }
 }
 
 function addURL() {
@@ -81,40 +85,57 @@ function addURL() {
 
     var newId = newIntNotInArray(urlIDs)
 
-    var newDiv = document.createElement("div");
-    newDiv.id = "urlDiv" + newId
-    newDiv.className = "form-group"
+    var newURLDiv = document.createElement("div");
+    newURLDiv.id = "urlDiv" + newId
+    newURLDiv.className = "form-group row"
 
-    var label = document.createElement("label");
-    label.htmlFor = "urls"
-    label.innerHTML = "URL"
-    newDiv.appendChild(label);
+    // Close Button Column Div
+    closeButtonDiv = document.createElement("div");
+    closeButtonDiv.className = "col-sm-2"
+    newURLDiv.appendChild(closeButtonDiv);
 
-    var urlName = document.createElement("input");
-    urlName.type = "text"
-    urlName.className = "form-control"
-    urlName.id = "urlName" + newId
-    urlName.placeholder = "amazon"
-    newDiv.appendChild(urlName);
-
-    var url = document.createElement("input");
-    url.type = "url"
-    url.className = "form-control"
-    url.id = "url" + newId
-    url.placeholder = "https://amazon.com/bp/coolBook"
-    newDiv.appendChild(url);
-
+    // Close button
     var closeButton = document.createElement("button");
     closeButton.type = "button"
     closeButton.className = "btn-close close"
     closeButton.id = "deleteURL" + newId
     closeButton.ariaLabel = "Close"
     closeButton.setAttribute( "onClick", `removeURL(${newId})` ) 
-    newDiv.appendChild(closeButton);
+    closeButtonDiv.appendChild(closeButton);
 
-    lastDiv.parentNode.insertBefore(newDiv, lastDiv.nextSibling);
+    // Url Name Column Div
+    urlNameColumnDiv = document.createElement("div");
+    urlNameColumnDiv.className = "col-sm-2"
+    newURLDiv.appendChild(urlNameColumnDiv);
+
+    // URL Name
+    var urlName = document.createElement("input");
+    urlName.type = "text"
+    urlName.className = "form-control"
+    urlName.id = "urlName" + newId
+    urlName.placeholder = "amazon"
+    urlNameColumnDiv.appendChild(urlName);
+
+    // Url string Column Div
+    urlColumnDiv = document.createElement("div");
+    urlColumnDiv.className = "col-sm-6"
+    newURLDiv.appendChild(urlColumnDiv);
+
+    // URL string
+    var url = document.createElement("input");
+    url.type = "url"
+    url.className = "form-control"
+    url.id = "url" + newId
+    url.placeholder = "https://amazon.com/bp/coolBook"
+    urlColumnDiv.appendChild(url);
+
+    lastDiv.parentNode.insertBefore(newURLDiv, lastDiv.nextSibling);
 
     urlIDs.push(newId)
+
+    if (urlIDs.length >= 5) {
+        document.getElementById("addButton").disabled = true
+    }
 }
 
 function itemIsInArray(item, arr) {
