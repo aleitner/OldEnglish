@@ -263,6 +263,15 @@ var resources_json = [
         "desc": ""
     },
     {
+        "title": "A Learner's Edition Of Caedmon's Story From Bede's Ecclesiastical History In Old English",
+        "authors": ["Bede","MiddleEnglishManuscripts"],
+        "date": "2021",
+        "type": "Website",
+        "hyperlinks": {"google doc":"https://docs.google.com/presentation/d/1mtXYYztDc2ZBqE1ss6eJpT9-AmNh1Yt2zhfSer0aSZc/edit?usp=sharing","pdf":"/docs/Cdmons_Story_In_Old_English_-_A_Learners_Edition.pdf"},
+        "tags": ["grammar","poetry"],
+        "desc": "Bede and you can credit me as MiddleEnglishManuscripts if you want\nDescription : The Old English text of Caedmon's story from Bede's Ecclesiastical History Of The English People with a colour-based grammatical gloss and unique vocabulary for each sentence provided on every page."
+    },
+    {
         "title" : "",
         "authors": [""],
         "date": "",
