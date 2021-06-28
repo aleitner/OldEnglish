@@ -97,7 +97,10 @@ function submitResource() {
         allResources.push(resource)
     }
 
-    console.log(allResources)
+    if (allResources.length == 0) {
+        alert("Please specify a resource")
+        return
+    }
 
     var url = buildURL(allResources)
 
