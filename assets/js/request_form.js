@@ -129,9 +129,13 @@ function submitResource() {
 
 // copyResource will copy all resources to clipboard
 function copyResource() {
+
+    allResources = JSON.stringify(getAllResources())
+    var trimmedResources = allResources.substring(1, allResources.length-1);
+
     var el = document.createElement('textarea')
     el.style.value = "hidden"
-    el.value = JSON.stringify(getAllResources())
+    el.value = trimmedResources
     document.body.appendChild(el)
     el.select()
     document.execCommand('copy')
