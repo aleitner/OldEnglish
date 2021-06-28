@@ -23,7 +23,7 @@ var resources_json = [
         "authors": ["Richard Hogg"],
         "date": "2012",
         "type" : "Book",
-        "hyperlinks": {"free url": "https://gustavorubinoernesto.com/wp-content/uploads/2021/11/Richard-Hogg-An-Introduction-to-Old-English-Edinburgh-University.pdf"},
+        "hyperlinks": {"pdf": "https://gustavorubinoernesto.com/wp-content/uploads/2021/11/Richard-Hogg-An-Introduction-to-Old-English-Edinburgh-University.pdf"},
         "tags": ["textbook"],
         "desc": ""
     },
@@ -130,7 +130,7 @@ var resources_json = [
         "authors": ["Carin Ruff"],
         "date": "2002",
         "type" : "Book",
-        "hyperlinks": {"online pdf": "https://pdfcoffee.com/oldenglishforreading-pdf-free.html"},
+        "hyperlinks": {"pdf": "https://pdfcoffee.com/oldenglishforreading-pdf-free.html"},
         "tags": ["textbook"],
         "desc": ""
     },
@@ -267,9 +267,35 @@ var resources_json = [
         "authors": ["Bede","MiddleEnglishManuscripts"],
         "date": "2021",
         "type": "Website",
-        "hyperlinks": {"google doc":"https://docs.google.com/presentation/d/1mtXYYztDc2ZBqE1ss6eJpT9-AmNh1Yt2zhfSer0aSZc/edit?usp=sharing","pdf":"/docs/Cdmons_Story_In_Old_English_-_A_Learners_Edition.pdf"},
+        "hyperlinks": {
+            "google doc": "https://docs.google.com/presentation/d/1mtXYYztDc2ZBqE1ss6eJpT9-AmNh1Yt2zhfSer0aSZc/edit?usp=sharing",
+            "pdf": "/docs/Cdmons_Story_In_Old_English_-_A_Learners_Edition.pdf"
+        },
         "tags": ["grammar","poetry"],
         "desc": "Bede and you can credit me as MiddleEnglishManuscripts if you want\nDescription : The Old English text of Caedmon's story from Bede's Ecclesiastical History Of The English People with a colour-based grammatical gloss and unique vocabulary for each sentence provided on every page."
+    },
+    {
+        "title":"Old English Core Vocabulary",
+        "authors":["Christine Rauer"],
+        "date":"2021",
+        "type":"Website",
+        "hyperlinks":{
+            "url":"https://www.st-andrews.ac.uk/~cr30/vocabulary/",
+            "anki deck": "/docs/Englisc_top500.apkg"
+        },
+        "tags":["word-hoard"],
+        "desc":"The list presents some 500 Old English words which could be regarded as literary core vocabulary. Some of the words are among the most frequent in Old English literature; some are of particular importance on account of their literary or linguistic usage. The reference ‘poet.’ signals predominant usage of a word in poetry. The cognates in a number of related languages are intended to make memorisation of the words easier. A word signaled as ‘hapax legomenon’ is found only once in the entire Old English corpus, and was possibly coined for the passage in question.\n\nThis list of Old English Core Vocabulary is intended as a teaching aid: the idea is that students learn this list of words by heart. It can be used in undergraduate or postgraduate Old English teaching, either for compulsory or optional assessments, or just for background. Tests can be made easier or harder, depending on whether the examined translation is from Old English to Modern English, or vice versa, or both, and depending on how much time students are allowed to memorise the vocabulary.\n\nThe insertion of updates and corrections is limited to one week during the summer, when students are unlikely to be using it formally. There are no plans for moving this page to another address. If you have any corrections, comments, or questions, please feel free to contact Christine Rauer by emailing cr30@st-andrews.ac.uk."
+    },
+    {
+        "title":"The Magic Sheet of Old English Inflections",
+        "authors":["Peter Baker"],
+        "date":"2016",
+        "type":"Other",
+        "hyperlinks":{
+            "pdf":"/docs/magic_letter.pdf"
+        },
+        "tags":["grammar"],
+        "desc":""
     },
     {
         "title" : "",
