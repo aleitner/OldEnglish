@@ -62,5 +62,10 @@ function loadResources() {
     }
 
     // We want to load this after we populate the table
-    $('#resourcesTable').DataTable();
+    $('#resourcesTable').DataTable({
+        rowReorder: {
+            selector: 'td:nth-child(2)'
+        },
+        responsive: true
+    });
 }
