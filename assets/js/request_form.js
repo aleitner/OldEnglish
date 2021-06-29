@@ -1,11 +1,6 @@
 var urlIDs = [0]
 var resources = [];
 
-// isEmpty checks if a string is empty
-function isEmpty(str) {
-    return (!str || str.length === 0 );
-}
-
 // clearResourceForm will remove all data from the form fields
 function clearResourceForm() {
     document.getElementById("title").value = "";
@@ -70,6 +65,11 @@ function getResourceFromPage() {
     }
 
     var title = document.getElementById("title").value;
+
+    if (isEmpty(title)) {
+        return null
+    }
+    
     var authors = document.getElementById("authors").value;
     var date = document.getElementById("date").value;
     var type = document.getElementById("resource_type").value;
@@ -83,10 +83,6 @@ function getResourceFromPage() {
         if (!isEmpty(urlName) && !isEmpty(url)) {
             resource.hyperlinks = {...resource.hyperlinks, [urlName]: url}
         }
-    }
-
-    if (isEmpty(title)) {
-        return null
     }
 
     resource.title = title
@@ -241,6 +237,11 @@ function addURL() {
     if (urlIDs.length >= 5) {
         document.getElementById("addButton").disabled = true
     }
+}
+
+// isEmpty checks if a string is empty
+function isEmpty(str) {
+    return (!str || str.length === 0 );
 }
 
 function itemIsInArray(item, arr) {
