@@ -298,6 +298,115 @@ var resources_json = [
         "desc":""
     },
     {
+        "title":"The Leiden University Old English ColloQuest",
+        "authors":[
+           "Amos von Baalen",
+           "Jennifer Jansen",
+           "Krista A. Murchison",
+           "Thijs Porck"
+        ],
+        "date":"2018",
+        "type":"Website",
+        "hyperlinks":{
+           "url":"https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html"
+        },
+        "tags":[
+           "Ælfric",
+           "Colloquy"
+        ],
+        "desc":""
+     },
+     {
+        "title":"King Alfred's Grammar",
+        "authors":[
+           "Michael D.C. Drout"
+        ],
+        "date":"2000",
+        "type":"Website",
+        "hyperlinks":{
+           "url":"https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html"
+        },
+        "tags":[
+           "grammar"
+        ],
+        "desc":""
+     },
+     {
+        "title":"An Old English Grammar, 3rd Edition",
+        "authors":[
+           "Alistair Campbell"
+        ],
+        "date":"1983",
+        "type":"Book",
+        "hyperlinks":{
+           "amazon":"https://www.amazon.com/dp/0198119437"
+        },
+        "tags":[
+           "grammar"
+        ],
+        "desc":""
+     },
+     {
+        "title":"A Grammar of Old English, Volume 1: Phonology",
+        "authors":[
+           "Richard M. Hogg"
+        ],
+        "date":"1992",
+        "type":"Book",
+        "hyperlinks":{
+           "amazon":"https://www.amazon.com/dp/1444339338"
+        },
+        "tags":[
+           "grammar"
+        ],
+        "desc":""
+     },
+     {
+        "title":"A Grammar of Old English, Volume 2",
+        "authors":[
+           "Richard M. Hogg"
+        ],
+        "date":"2011",
+        "type":"Book",
+        "hyperlinks":{
+           "amazon":"https://www.amazon.com/dp/0631136711"
+        },
+        "tags":[
+           "grammar"
+        ],
+        "desc":""
+     },
+     {
+        "title":"Old English: A Linguistic Introduction",
+        "authors":[
+           "Jeremy J. Smith"
+        ],
+        "date":"2009",
+        "type":"Book",
+        "hyperlinks":{
+           "amazon":"https://www.amazon.com/dp/0521685699"
+        },
+        "tags":[
+           "grammar"
+        ],
+        "desc":""
+     },
+    {
+        "title":"Substantival inflexion in early Old English : vocalic stems",
+        "authors":[
+           "Ivar. Dahl"
+        ],
+        "date":"1938",
+        "type":"Book",
+        "hyperlinks":{
+           
+        },
+        "tags":[
+           "grammar"
+        ],
+        "desc":""
+    },
+    {
         "title" : "",
         "authors": [""],
         "date": "",

@@ -2,64 +2,6 @@
 
 Just a collection of resources and thoughts
 
-# Beginner Textbooks
-
-[An Introduction to Old English, 2021 Edition](https://www.amazon.com/dp/1603293116) by Jonathan Evans
-
-[An Introduction to Old English](https://gustavorubinoernesto.com/wp-content/uploads/2021/11/Richard-Hogg-An-Introduction-to-Old-English-Edinburgh-University.pdf) by Hogg. There is a 2nd edition from 2012.
-
-[Complete Old English, 2019 Edition](https://www.amazon.com/dp/1473627923)
-
-[A Guide to Old English, 8th Edition](https://www.amazon.com/dp/0470671076) 
-
-[Learn Old English with Leofwin, 2013 Edition](https://www.amazon.com/dp/189828167X)
-
-[Beginning Old English, 2nd ed. 2013 Edition](https://www.amazon.com/dp/0230301398)
-
-[The Cambridge Old English Reader, 2nd Edition](https://www.amazon.com/dp/1107641314)
-
-[An Introductory Grammar of Old English, 2014 Edition](https://www.amazon.com/dp/086698514X)
-
-[Elementary Old English, 2011 Edition](https://www.amazon.com/dp/1466269537)
-
-[An Old English Grammar and Exercise Book, 2019 Edition](https://www.amazon.com/dp/0469337346)
-
-[Drout's Quick and Easy Old English, 2012 Edition](https://www.amazon.com/dp/B009DVC2AI)
-
-[Reading Old English](https://www.amazon.com/dp/1933202742)
-
-[Old English for Reading](https://pdfcoffee.com/oldenglishforreading-pdf-free.html)
-
-[Learning Old English 2019 : A Course with Audio-Visual CD and Exercises](https://www.bookdepository.com/Learning-Old-English-2019-O-D-Macrae-Gibson/9781857520842)
-
-[Bright's Old English Grammar and Reader, 1972](https://www.amazon.com/Brights-Old-English-Grammar-Reader/dp/0030847133) - this is technically a newer edition of "Bright's Anglo-Saxon Reader" (see below), but it has been radically reworked to be an introductory textbook. This newer edition is not in the public domain.
-
-[Old English: An Introduction](https://www.amazon.com/Old-English-Introduction-R-J-Kispert/dp/003083256X) by Kispert
-
-[Old English Language and Literature, 1972]()
-
-[A Gentle Introduction to Old English](https://www.amazon.com/Gentle-Introduction-Old-English/dp/1551118416) by McGillivray
-
-[Old English: Grammar and Reader](https://www.amazon.com/Old-English-Grammar-Robert-Diamond/dp/0814315100) by Diamond
-
-[An Invitation to Old English and Anglo-Saxon England](https://www.amazon.com/Invitation-Old-English-Anglo-Saxon-England/dp/0631174362), 1995 by Mitchell
-
-[First Steps in Old English, 3rd ed. 2004](https://www.amazon.com/gp/product/B00DO8ZYKG/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i5) by Pollington
-
-[The Earliest English: An Introduction to Old English Language](https://www.amazon.com/Earliest-English-Introduction-Old-Language/dp/0582404746) by McCully & Hilles
-
-# Word Hoards
-
-[Bosworth Toller's Anglo-Saxon Dictionary online](https://bosworthtoller.com/)
-
-[Word-Hoard: An Introduction to Old English Vocabulary, 2nd Edition](https://www.amazon.com/dp/0300035063)
-
-[The Wordhord: Daily Life in Old English, 2021 Edition](https://www.waterstones.com/book/the-wordhord/hana-videen/9781788166102)
-
-[A Concise Anglo-Saxon Dictionary](https://www.amazon.com/dp/1617201871)
-
-[The Old-Engli.sh Dictionary](https://old-engli.sh/dictionary.php) (Johnson's 1927) - an online dictionary
-
 # Grammar Sources
 
 [The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
