@@ -407,6 +407,86 @@ var resources_json = [
         "desc":""
     },
     {
+        "title":"Anglo-Saxon Futhorc Keyboard",
+        "authors":[
+           "Osaka Red LLC"
+        ],
+        "date":"2017",
+        "type":"Mobile App",
+        "hyperlinks":{
+           "apple store":"https://apps.apple.com/us/app/anglo-saxon-futhorc-keyboard/id1301122103"
+        },
+        "tags":[
+           "iphone",
+           "runes"
+        ],
+        "desc":"A keyboard to let you type all the runes used in Anglo-Saxon/Old English as well as Old Frisian. Also a handy reference of the different runes, their names and the sounds they made. Suitable for writing in extinct Germanic languages or phonetically writing in modern languages! Have fun connecting with the past and sending secret messages to friends using the beautiful, angular runes."
+     },
+     {
+        "title":"Dreng's Old English Pronunciation Guide",
+        "authors":[
+           "Dreng"
+        ],
+        "date":"",
+        "type":"Website",
+        "hyperlinks":{
+           "google doc":"https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing",
+           "pdf":"docs/old_english_guide.pdf"
+        },
+        "tags":[
+           "phonology"
+        ],
+        "desc":""
+     },
+     {
+        "title":"Old English Breaking and Its Germanic Analogues",
+        "authors":[
+           "Robert B. Howell"
+        ],
+        "date":"1991",
+        "type":"Book",
+        "hyperlinks":{
+           "amazon":"https://www.amazon.com/dp/3484302534",
+           "degruyter":"https://www.degruyter.com/document/doi/10.1515/9783111356501/html"
+        },
+        "tags":[
+           "phonology"
+        ],
+        "desc":""
+     },
+     {
+        "title":"Alliteration And Sound Change In Early English",
+        "authors":[
+           "Donka Minkova"
+        ],
+        "date":"2003",
+        "type":"Book",
+        "hyperlinks":{
+           "amazon":"https://www.amazon.com/dp/0521573173"
+        },
+        "tags":[
+           "phonology"
+        ],
+        "desc":"'This book offers a thorough analysis of alliteration in early English, with an eye to using the data to shed light on long-standing problems of English historical phonology. Furthermore, it synthesizes traditional philology with current formal approaches to phonology, namely, a phonetically informed version of Optimality Theory. The book should therefore appeal to both students and scholars of English metrics and to theoretical phonologists.' - Marc Pierce, University of Texas"
+     },
+     {
+        "title":"Old English Online",
+        "authors":[
+           "Victoria Koivisto-Kokko"
+        ],
+        "date":"2021",
+        "type":"Website",
+        "hyperlinks":{
+           "url":"oldenglish.info"
+        },
+        "tags":[
+           "grammar",
+           "phonology",
+           "readings"
+        ],
+        "desc":""
+     },
+    {
         "title" : "",
         "authors": [""],
         "date": "",

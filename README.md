@@ -54,16 +54,6 @@ Carpenter's Old English Grammar
 
 [Old English: A Historical Linguistic Companion](), 1994 by Lass
 
-# Phonology
-
-[Dreng's Old English Pronunciation Guide](https://docs.google.com/document/d/1zG5K_6JobHYogmacOvdz4GlVEKyLfI6rGAfHO1ZT-6s/edit?usp=sharing)
-
-Alliteration and Sound Change in Early English, 2003 by Minkova
-
-~~[Old English Online Pronunciation Guide](https://oldenglish.info/advpronunciationguide.html)~~ *Outdated*
-
-[Old English Breaking and its Germanic Analogues](https://www.degruyter.com/document/doi/10.1515/9783111356501/html)
-
 # Syntax (needs links)
 
 [Old English Syntax](), 1985 in 2 volumes, by Mitchell
@@ -193,12 +183,6 @@ Runes, 1989 by Elliot
 [Old English Hexateuch](http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_claudius_b_iv_fs001r) - Original manuscript. It has tons of cool illustrations
 
 [Old English Heptateuch (online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015004743160) | [pdf](https://www.forgottenbooks.com/en/books/TheOldEnglishVersionoftheHeptateuchAelfricsTreatiseontheOldandNewTestamentandHis_10921370))
-
-# Useful Apps
-
-[Futhorc Keyboard, iPhone](https://apps.apple.com/us/app/anglo-saxon-futhorc-keyboard/id1301122103)
-
-[LP Old English, iPhone](https://apps.apple.com/us/app/lp-old-english/id528357612) - Vocabulary practice app
 
 # Literature
 
