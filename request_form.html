@@ -105,9 +105,17 @@
 
             <br />
 
-            <button type="button" class="btn btn-secondary" onclick="addResource()">Add Another Resource</button>
-            <button type="button" class="btn btn-secondary" onclick="copyResource()">Copy to Clipboard</button> 
-            <button type="button" class="btn btn-primary" onclick="submitResource()">Propose resources</button>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Submit
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#" onclick="addResource()">Add Another Resource</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="copyResource()">Copy to Clipboard</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="submitResource()">Propose Resources</a></li>
+                    <li><a class="dropdown-item" href="#" onclick="clearResources()">Clear Resources</a></li>    
+                </ul>
+              </div>
           </form>
 
           <div id="resources"></div>

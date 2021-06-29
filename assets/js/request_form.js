@@ -28,6 +28,18 @@ function clearResourceForm() {
     urlIDs = [0]
 }
 
+//clearResources will clear all resources from the form
+function clearResources() {
+    if (!confirm("Are you sure you want to clear the resources?")) {
+      return
+    }
+
+    clearResourceForm()
+    resources = []
+
+    document.getElementById("resources").innerHTML = ""
+}
+
 // addResource will add resource to array of resources
 function addResource() {
     // Get current resource

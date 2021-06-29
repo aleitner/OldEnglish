@@ -2,22 +2,6 @@
 
 Just a collection of resources and thoughts
 
-# Grammar Sources
-
-[The Leiden University Old English ColloQuest](https://hum2.leidenuniv.nl/ECOLe/Colloquest-NF/story_html5.html) - Learn through Aelfric's Grammar
-
-[King Alfred's Grammar](https://people.umass.edu/sharris/in/gram/GrammarBook/KAGrammar.html) by Drout
-
-[An Old English Grammar, 1959](https://www.amazon.com/old-English-grammar-Wardale/dp/B0007JK63K) by Campbell
-
-[A Grammar of Old English v1: Phonology, 1992]() by Hogg
-
-[A Grammar of Old English v2: Morphology, 2011]() by Hogg and Fulk
-
-Old English: A Linguistic Introduction
-
-Substantival Inflection in Early Old English, 1938 by Dahl
-
 ## Old Grammar Textbooks
 
 [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
