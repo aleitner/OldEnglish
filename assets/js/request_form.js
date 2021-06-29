@@ -17,6 +17,7 @@ function clearResourceForm() {
         } else {
             document.getElementById("urlName" + urlIDs[i]).remove()
             document.getElementById("url" + urlIDs[i]).remove()
+            document.getElementById("deleteURL" + urlIDs[i]).remove()
         }
     }
 
@@ -69,7 +70,7 @@ function getResourceFromPage() {
     if (isEmpty(title)) {
         return null
     }
-    
+
     var authors = document.getElementById("authors").value;
     var date = document.getElementById("date").value;
     var type = document.getElementById("resource_type").value;
