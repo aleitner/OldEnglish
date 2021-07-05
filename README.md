@@ -184,6 +184,10 @@ Runes, 1989 by Elliot
 
 [Old English Heptateuch (online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015004743160) | [pdf](https://www.forgottenbooks.com/en/books/TheOldEnglishVersionoftheHeptateuchAelfricsTreatiseontheOldandNewTestamentandHis_10921370))
 
+## Manuscripts
+
+[Exeter Book](https://theexeterbook.exeter.ac.uk/index.html)
+
 # Literature
 
 [Weaving Words and Binding Bodies: The Poetics of Human Experience in Old English Literature](https://www.amazon.com/Weaving-Words-Binding-Bodies-Anglo-Saxon/dp/1442637226)
