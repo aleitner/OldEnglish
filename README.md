@@ -190,6 +190,9 @@ Runes, 1989 by Elliot
 
 [Exeter Book](https://theexeterbook.exeter.ac.uk/index.html)
 
+[Historia ecclesiastica gentis anglorum (MS Kk.3.18)
+](https://cudl.lib.cam.ac.uk/view/MS-KK-00003-00018/1) - Old English Translation of Bede's *Historia ecclesiastica gentis anglorum* (History of the English People)
+
 # Literature
 
 [Weaving Words and Binding Bodies: The Poetics of Human Experience in Old English Literature](https://www.amazon.com/Weaving-Words-Binding-Bodies-Anglo-Saxon/dp/1442637226)
