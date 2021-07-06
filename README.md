@@ -124,6 +124,8 @@ Runes, 1989 by Elliot
 
 [ENGL 6011/7011 Fall 2020 Old English](https://youtube.com/playlist?list=PLVN0KkTC1M3ohXgRym_2DwxP25VUdqqcY)
 
+[The Historical Grammar of the Old English Language](https://tied.verbix.com/project/grammar/grammar41.html)
+
 # Corpus and Other Texts
 
 [The York-Toronto-Helsinki Parsed Corpus of Old English Prose (YCOE)](https://www-users.york.ac.uk/~lang22/YcoeHome1.htm)
