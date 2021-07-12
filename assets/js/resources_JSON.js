@@ -249,7 +249,7 @@ var resources_json = [
         "authors": ["J. R. Clark-Hall"],
         "date": "2011",
         "type" : "Book",
-        "hyperlinks": {"amazon":, "pdf": "https://people.uwplatt.edu/~ciesield/angd.pdf"},
+        "hyperlinks": {"amazon": "https://www.amazon.com/Concise-Anglo-Saxon-Dictionary-J-Clark-Hall/dp/1617201871", "pdf": "https://people.uwplatt.edu/~ciesield/angd.pdf"},
         "tags": ["word-hoard", "dictionary"],
         "desc": ""
     },
