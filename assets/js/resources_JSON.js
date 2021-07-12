@@ -249,7 +249,7 @@ var resources_json = [
         "authors": ["J. R. Clark-Hall"],
         "date": "2011",
         "type" : "Book",
-        "hyperlinks": {"amazon": ""},
+        "hyperlinks": {"amazon": "pdf": "https://people.uwplatt.edu/~ciesield/angd.pdf"},
         "tags": ["word-hoard", "dictionary"],
         "desc": ""
     },
