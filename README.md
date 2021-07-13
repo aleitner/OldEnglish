@@ -1,5 +1,7 @@
 # Old English Resources
 
+\[this list is currently being moved to [englisc.info](englisc.info)]
+
 Just a collection of resources and thoughts
 
 ## Old Grammar Textbooks
