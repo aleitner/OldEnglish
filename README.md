@@ -1,6 +1,6 @@
 # Old English Resources
 
-\[this list is currently being moved to [englisc.info](englisc.info)]
+\[this list is currently being moved to [englisc.info](http://englisc.info/index.html)]
 
 Just a collection of resources and thoughts
 
