@@ -86,7 +86,7 @@ function populateRecent(newsPost) {
     postBody.innerHTML = htmlify(newsPost.body)
 
     var commentButton = document.getElementById("commentButton")
-    commentButton.setAttribute( "onClick", `commentButton(${newsPost.id})` ) 
+    commentButton.setAttribute( "onClick", `commentButton(${newsPost.number})` ) 
 }
 
 function htmlify(inputText) {
