@@ -7,10 +7,12 @@ function loadBlogposts() {
 
     if (newsPosts.length > 0) {
         var comments = getCommentsForPost(newsPosts[0].number)
-
         populateRecent(newsPosts[0])
         populateOldPostsList(newsPosts)
-        populateComments(comments)
+
+        if (comments.length > 0) {
+            populateComments(comments)
+        }
     }
 }
 
@@ -85,8 +87,15 @@ function populateRecent(newsPost) {
     var postBody = document.getElementById("postBody")
     postBody.innerHTML = htmlify(newsPost.body)
 
-    var commentButton = document.getElementById("commentButton")
+    var commentButtonDiv = document.getElementById("commentButton")
+    commentButtonDiv.innerHTML = ""
+    var commentButton = document.createElement("button");
+    commentButton.type = "button"
+    commentButton.className = "btn btn-primary"
     commentButton.setAttribute( "onClick", `commentButton(${newsPost.number})` ) 
+    commentButton.innerText = "Comment"
+    commentButtonDiv.appendChild(commentButton);
+
 }
 
 function htmlify(inputText) {
