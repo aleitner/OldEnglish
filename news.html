@@ -48,6 +48,35 @@
 
     <br />
 
+    <div class="container">
+        <div class="row">
+            <div class="col" style="padding-right:20px; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                <div id="recentPost">
+                    <h1 id="postTitle"></h1>
+                    <p id="postMeta"></p>
+                    <p id="postBody"></p>
+                </div>
+            </div>
+            
+            <div class="col-md-auto">
+                <div id="olderPosts">
+                    <h3 id="olderPostsTitle"></h3>
+                    <ul style="list-style: none;" id="olderPostsList"></ul>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div id="comments" class="col"></div>
+        </div>
+
+        <div class="row">
+            <button id="commentButton" type="button" class="btn btn-primary" onclick="commentButton()">Comment Here</button>
+        </div>
+    </div>
+
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

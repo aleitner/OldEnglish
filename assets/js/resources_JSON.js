@@ -486,13 +486,32 @@ var resources_json = [
         ],
         "desc":""
      },
-    {
-        "title" : "",
-        "authors": [""],
-        "date": "",
-        "type" : "Book",
-        "hyperlinks": {"amazon": ""},
-        "tags": [],
-        "desc": ""
-    },
+     {
+         "title":"An Old English Grammar",
+         "authors":[
+            "Eduard Sievers",
+            "translated by Albert Cook"
+         ],
+         "date":"1903",
+         "type":"Book",
+         "hyperlinks":{
+            "scans":"https://archive.org/details/oldenglishgramma00sievrich"
+         },
+         "tags":[
+            "grammar",
+            "phonology",
+            "morphology",
+            "dialects"
+         ],
+         "desc":"lists many dialectal forms"
+      },
+      {
+         "title" : "",
+         "authors": [""],
+         "date": "",
+         "type" : "Book",
+         "hyperlinks": {"amazon": ""},
+         "tags": [],
+         "desc": ""
+      },
 ]

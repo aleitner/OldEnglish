@@ -1,5 +1,6 @@
 var urlIDs = [0]
 var resources = [];
+var repo = "aleitner/OldEnglish"
 
 // clearResourceForm will remove all data from the form fields
 function clearResourceForm() {
@@ -133,7 +134,6 @@ function submitResource() {
 
     var url = buildURL(allResources)
 
-    console.log(url)
     window.open(url, '_blank')
 }
 
@@ -161,7 +161,7 @@ function buildURL(resource) {
     // We remove the [] from the ends
     var trimmedBody = body.substring(1, body.length-1);
 
-    return encodeURI(`https://github.com/aleitner/OldEnglish/issues/new?title=New+Resource+Proposal&body=${trimmedBody}`)
+    return encodeURI(`https://github.com/${repo}/issues/new?title=New+Resource+Proposal&body=${trimmedBody}`)
 }
 
 // removeURL will remove one of the URL fields
