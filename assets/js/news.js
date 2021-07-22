@@ -1,14 +1,19 @@
+// Issue must have one of these labels in order to show up
 var labels = ['news']
+// Issue must be created by one of these users in order to show up
 var users = ['aleitner']
+// Issue repo location
 var repo = "aleitner/OldEnglish"
 
-function loadBlogposts() {
-    var newsPosts = getPosts()
+// Retrieve all issues and populate
+window.onload = function() {
+    var issues = getIssues()
 
-    if (newsPosts.length > 0) {
-        var comments = getCommentsForPost(newsPosts[0].number)
-        populateRecent(newsPosts[0])
-        populateOldPostsList(newsPosts)
+
+    if (issues.length > 0) {
+        var comments = getCommentsForIssue(issues[0].number)
+        populateRecent(issues[0])
+        populateOlderIssuesList(issues)
 
         if (comments.length > 0) {
             populateComments(comments)
@@ -16,19 +21,61 @@ function loadBlogposts() {
     }
 }
 
-function getPosts() {
-    var resp = httpGet(`https://api.github.com/repos/${repo}/issues`)
-    respAsJSON = JSON.parse(resp)
-    return filterPosts(respAsJSON)
+// synchronous get request
+// TODO: Make async
+function httpGet(theUrl) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", theUrl, false); // false for synchronous request
+    xmlHttp.setRequestHeader('Content-type', 'application/vnd.github.v3+json');
+    xmlHttp.send(null);
+    return xmlHttp.responseText;
 }
 
-function getCommentsForPost(issue_number) {
+// getIssues from github api
+function getIssues() {
+    var resp = httpGet(`https://api.github.com/repos/${repo}/issues`)
+    respAsJSON = JSON.parse(resp)
+    return filterIssues(respAsJSON)
+}
+
+// getCommentsForIssue from github api by issue id
+function getCommentsForIssue(issue_number) {
     var resp = httpGet(`https://api.github.com/repos/${repo}/issues/${issue_number}/comments`)
     return JSON.parse(resp)
 }
 
+// Redirect to issue page for comment
+function commentButton(postID) {
+    var url = `http://github.com/${repo}/issues/${postID}`
+    window.open(url, '_blank')
+}
+
+// populateRecent will populate the most recent issue in the center of the page
+function populateRecent(newsPost) {
+    var issueTitle = document.getElementById("issueTitle")
+    issueTitle.innerHTML = `<a href="${newsPost.html_url}">${newsPost.title}</a>`
+
+    var issueMeta = document.getElementById("issueMeta")
+    var date = `<em><font size="-1">Posted on ${newsPost.created_at.slice(0,10)}</font></em>`
+    var author = `<em><font size="-1">By <a href="${newsPost.user.html_url}">${newsPost.user.login}</a></font></em>`
+    issueMeta.innerHTML = date + " " + author
+
+    var issueBody = document.getElementById("issueBody")
+    issueBody.innerHTML = htmlify(newsPost.body)
+
+    var commentButtonDiv = document.getElementById("commentButton")
+    commentButtonDiv.innerHTML = ""
+    var commentButton = document.createElement("button");
+    commentButton.type = "button"
+    commentButton.className = "btn btn-primary"
+    commentButton.setAttribute( "onClick", `commentButton(${newsPost.number})` ) 
+    commentButton.innerText = "Comment"
+    commentButtonDiv.appendChild(commentButton);
+}
+
+// populateComments into div with id issueComments
 function populateComments(comments) {
-    var commentsDiv = document.getElementById("comments")
+    var commentsDiv = document.getElementById("issueComments")
     for(var i = 0; i < comments.length; i++) {
         var comment = comments[i]
         var date = `<em><font size="-1">${comment.created_at.slice(0,10)}</font></em>`
@@ -41,63 +88,37 @@ function populateComments(comments) {
     }
 }
 
-function commentButton(postID) {
-    var url = `http://github.com/${repo}/issues/${postID}`
-    window.open(url, '_blank')
-}
-
-function populateOldPostsList(newsPosts) {
-    var olderPostsList = document.getElementById("olderPostsList")
+// populateOlderIssuesList into div with id olderIssuesList
+function populateOlderIssuesList(newsPosts) {
+    var olderIssuesList = document.getElementById("olderIssuesList")
     // Clear the old posts
-    olderPostsList.innerHTML = ""
+    olderIssuesList.innerHTML = ""
 
-    var olderPostsTitle = document.getElementById("olderPostsTitle")
-    olderPostsTitle.innerHTML = "Previous Posts"
+    var olderIssues = document.getElementById("olderIssues")
+    olderIssues.innerHTML = "Previous Posts"
 
     // newsPosts[0] is not old so we start at newsPosts[1]
     for (var i = 1; i< newsPosts.length; i++) {
-        populateOldPost(newsPosts[i])
+        populateOlderIssue(newsPosts[i])
         if (i > 10) {
             break
         }
     }
 
     post = document.createElement("li");
-    post.innerHTML = `<a href="https://github.com/aleitner/OldEnglish/labels/news">See all...</a>`
-    olderPostsList.appendChild(post);
+    post.innerHTML = `<a href="https://github.com/${repo}/labels/news">See all...</a>`
+    olderIssuesList.appendChild(post);
 }
 
-function populateOldPost(newsPost) {
-    var olderPosts = document.getElementById("olderPostsList")
+function populateOlderIssue(newsPost) {
+    var olderPosts = document.getElementById("olderIssuesList")
 
     post = document.createElement("li");
     post.innerHTML = `<a href="${newsPost.html_url}">${newsPost.title}</a>`
     olderPosts.appendChild(post);
 }
 
-function populateRecent(newsPost) {
-    var postTitle = document.getElementById("postTitle")
-    postTitle.innerHTML = `<a href="${newsPost.html_url}">${newsPost.title}</a>`
-
-    var postMeta = document.getElementById("postMeta")
-    var date = `<em><font size="-1">Posted on ${newsPost.created_at.slice(0,10)}</font></em>`
-    var author = `<em><font size="-1">By <a href="${newsPost.user.html_url}">${newsPost.user.login}</a></font></em>`
-    postMeta.innerHTML = date + " " + author
-
-    var postBody = document.getElementById("postBody")
-    postBody.innerHTML = htmlify(newsPost.body)
-
-    var commentButtonDiv = document.getElementById("commentButton")
-    commentButtonDiv.innerHTML = ""
-    var commentButton = document.createElement("button");
-    commentButton.type = "button"
-    commentButton.className = "btn btn-primary"
-    commentButton.setAttribute( "onClick", `commentButton(${newsPost.number})` ) 
-    commentButton.innerText = "Comment"
-    commentButtonDiv.appendChild(commentButton);
-
-}
-
+//htmlify will add tags to decorate text
 function htmlify(inputText) {
     var replacedText, replacePattern1, replacePattern2, replacePattern3;
 
@@ -119,19 +140,12 @@ function htmlify(inputText) {
     return replacedText;
 }
 
-function httpGet(theUrl) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", theUrl, false); // false for synchronous request
-    xmlHttp.setRequestHeader('Content-type', 'application/vnd.github.v3+json');
-    xmlHttp.send(null);
-    return xmlHttp.responseText;
-}
-
-function filterPosts(posts) {
+// filterIssues will out issues that don't have a valid level or author
+function filterIssues(posts) {
     var filteredPosts = []
 
     for (var i = 0; i < posts.length; i++) {
-        if (doesPostHaveValidLabel(posts[i]) && doesPostHaveValidUser(posts[i])) {
+        if (doesIssueHaveValidLabel(posts[i]) && doesIssueHaveValidUser(posts[i])) {
             filteredPosts.push(posts[i])
         }
     }
@@ -139,7 +153,7 @@ function filterPosts(posts) {
     return filteredPosts
 }
 
-function doesPostHaveValidLabel(post) {
+function doesIssueHaveValidLabel(post) {
     for (var i = 0; i < post.labels.length; i++) {
         console.log()
         if (labels.indexOf(post.labels[i].name) != -1) {
@@ -150,7 +164,7 @@ function doesPostHaveValidLabel(post) {
     return false
 }
 
-function doesPostHaveValidUser(post) {
+function doesIssueHaveValidUser(post) {
     if (users.indexOf(post.user.login) != -1) {
         return true
     }
