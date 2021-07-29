@@ -136,7 +136,7 @@ Runes, 1989 by Elliot
 
 [The Online Corpus of Old English Poetry (OCOEP)](http://www.oepoetry.ca/)
 
-[Anglo-Saxon Poetic Records (About Page](Anglo-Saxon poetic records) | [Text](https://ota.bodleian.ox.ac.uk/repository/xmlui/bitstream/handle/20.500.12024/3009/3009.html?sequence=6&isAllowed=y)) - all of the poems in a single webpage
+[Anglo-Saxon Poetic Records (About Page](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3009) | [Text](https://ota.bodleian.ox.ac.uk/repository/xmlui/bitstream/handle/20.500.12024/3009/3009.html?sequence=6&isAllowed=y)) - all of the poems in a single webpage
 
 [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
 
