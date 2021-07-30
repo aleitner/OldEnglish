@@ -4,6 +4,20 @@
 
 Just a collection of resources and thoughts
 
+## How this website works
+
+All the code is hosted here on github at https://github.com/aleitner/OldEnglish
+The website URL is http://englisc.info/
+
+I'm very cheap so I am using github's hosting service to put the code onto the web for free. 
+I also decided to use their issue system as a backend for the blogs.
+Blog front end: http://englisc.info/news.html
+Blog back end: https://github.com/aleitner/OldEnglish/issues?q=is%3Aopen+is%3Aissue+label%3Anews
+Essentially any issue created by us with the news tag will move to the `/news.html` page for the frontend.
+This is however limited to 60 views per hour per user since I am cheap and not spending any money.
+
+To post an issue just go to the backend and create a new issue with the `news` label.
+
 ## Old Grammar Textbooks
 
 [Siever's Old English Grammar](https://archive.org/details/oldenglishgramma00sievrich) - lists dialectal forms; one of the very few books to do so
