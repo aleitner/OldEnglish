@@ -150,9 +150,13 @@ Runes, 1989 by Elliot
 
 [The Online Corpus of Old English Poetry (OCOEP)](http://www.oepoetry.ca/)
 
+[Anglo-Saxon Poetic Records (About Page](https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3009) | [Text](https://ota.bodleian.ox.ac.uk/repository/xmlui/bitstream/handle/20.500.12024/3009/3009.html?sequence=6&isAllowed=y)) - all of the poems in a single webpage
+
 [Old English Literature: A Hypertext Coursepack](http://english.nsms.ox.ac.uk/oecoursepack/) - Collection of Old English Texts
 
 ## Readers (some need links)
+
+[Old English Reader](http://www.oereader.ca/) - "a site to support Murray McGillivray's *Old English Reader*". This site has several OE texts with a convenient glossary in a separate scroll box on the same page
 
 [An Anglo-Saxon Reader, 3rd ed. 1913](https://en.wikisource.org/wiki/Bright%27s_Anglo-Saxon_Reader) (online), [4th ed.](https://archive.org/details/AnAnglo-saxonReader) (scans). AKA "Bright's Anglo-Saxon Reader".
 
@@ -203,6 +207,8 @@ Runes, 1989 by Elliot
 [Old English Heptateuch (online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015004743160) | [pdf](https://www.forgottenbooks.com/en/books/TheOldEnglishVersionoftheHeptateuchAelfricsTreatiseontheOldandNewTestamentandHis_10921370))
 
 ## Manuscripts
+
+[Manuscripts Medievaux](https://manuscrits-france-angleterre.org/services/engine/search/sru?operation=searchRetrieve&version=1.2&startRecord=0&maximumRecords=15&page=1&collapsing=true&exactSearch=false&query=%28%28dc.description%20all%20%22England%22%20%20prox%2Funit%3Dword%2Fdistance%3D5%20%22Lieu%20de%20copie%22%20or%20dc.description%20all%20%22England%22%20%20prox%2Funit%3Dword%2Fdistance%3D5%20%22Place%22%29%20or%20%28dc.description%20all%20%22Angleterre%22%20%20prox%2Funit%3Dword%2Fdistance%3D5%20%22Lieu%20de%20copie%22%20or%20dc.description%20all%20%22Angleterre%22%20%20prox%2Funit%3Dword%2Fdistance%3D5%20%22Place%22%29%29%20sortby%20dc.date%2Fsort.ascending&filter=dc.language%20all%20%22ang%22) - this page contains all of the site's Old English manuscripts (though it has many others)
 
 [Exeter Book](https://theexeterbook.exeter.ac.uk/index.html)
 
