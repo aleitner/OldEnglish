@@ -7,16 +7,34 @@ var repo = "aleitner/OldEnglish"
 
 // Retrieve all issues and populate
 window.onload = function() {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+
     var issues = getIssues()
 
+    var mainIssue = issues[0]
+    if (params.post != null) {
+        const iss = getIssueByNumber(issues, params.post)
+        if (iss != null) {
+            mainIssue = iss;
+        }
+    }
 
     if (issues.length > 0) {
-        var comments = getCommentsForIssue(issues[0].number)
-        populateRecent(issues[0])
+        var comments = getCommentsForIssue(mainIssue.number)
+        populateRecent(mainIssue)
         populateOlderIssuesList(issues)
 
         if (comments.length > 0) {
             populateComments(comments)
+        }
+    }
+}
+
+function getIssueByNumber(issues, issueNumber) {
+    for (var i = 0; i < issues.length; i++) {
+        if (issues[i].number == issueNumber) {
+            return issues[i];
         }
     }
 }
