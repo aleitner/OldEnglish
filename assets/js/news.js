@@ -1,7 +1,7 @@
 // Issue must have one of these labels in order to show up
 var labels = ['news']
 // Issue must be created by one of these users in order to show up
-var users = ['aleitner']
+var users = ['aleitner', 'fadiend', 'Wynmill']
 // Issue repo location
 var repo = "aleitner/OldEnglish"
 
