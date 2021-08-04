@@ -63,7 +63,13 @@ function loadResources() {
 
     // We want to load this after we populate the table
     $('#resourcesTable').DataTable({
-        responsive: true
+        scrollY:        "300px",
+        scrollX:        true,
+        scrollCollapse: true,
+        columnDefs: [
+            { width: '20%', targets: 0 }
+        ],
+        fixedColumns: true
     });
 
     new $.fn.dataTable.FixedHeader( table );

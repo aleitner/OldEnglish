@@ -5,6 +5,8 @@ var users = ['aleitner', 'fadiend', 'Wynmill']
 // Issue repo location
 var repo = "aleitner/OldEnglish"
 
+var converter = new showdown.Converter();
+
 // Retrieve all issues and populate
 window.onload = function() {
     const urlSearchParams = new URLSearchParams(window.location.search);
@@ -101,7 +103,7 @@ function populateComments(comments) {
         var body = htmlify(comment.body)
 
         post = document.createElement("p");
-        post.innerHTML = `<b>${author}</b> ${date} <br />${htmlify(body)}<br /><br />`
+        post.innerHTML = `<b>${author}</b> ${date} <br />${body}<br /><br />`
         commentsDiv.appendChild(post);
     }
 }
@@ -140,9 +142,12 @@ function populateOlderIssue(newsPost) {
 function htmlify(inputText) {
     var replacedText, replacePattern1, replacePattern2, replacePattern3;
 
+    // convert markdown to html
+    replacedText = converter.makeHtml(inputText)
+
     //URLs starting with http://, https://, or ftp://
     replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-    replacedText = inputText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
+    replacedText = replacedText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
 
     //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
     replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
