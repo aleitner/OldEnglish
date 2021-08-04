@@ -83,24 +83,24 @@ function getResourceFromPage() {
         var url = document.getElementById("url" + urlIDs[i]).value;
 
         if (!isEmpty(urlName) && !isEmpty(url)) {
-            resource.hyperlinks = {...resource.hyperlinks, [urlName]: url}
+            resource.hyperlinks = {...resource.hyperlinks, [encodeURIComponent(urlName)]: encodeURIComponent(url)}
         }
     }
 
-    resource.title = title
-    resource.date = date
-    resource.type = type
-    resource.desc = desc
+    resource.title = encodeURIComponent(title)
+    resource.date = encodeURIComponent(date)
+    resource.type = encodeURIComponent(type)
+    resource.desc = encodeURIComponent(desc)
     
     if (!isEmpty(authors)) {
         resource.authors = authors.split(',').map(function(item) {
-            return item.trim()
+            return encodeURIComponent(item.trim())
         });
     }
 
     if (!isEmpty(tags)) {
         resource.tags = tags.split(',').map(function(item) {
-            return item.trim()
+            return encodeURIComponent(item.trim())
         });
     }
 
@@ -161,7 +161,7 @@ function buildURL(resource) {
     // We remove the [] from the ends
     var trimmedBody = body.substring(1, body.length-1);
 
-    return encodeURI(`https://github.com/${repo}/issues/new?title=New+Resource+Proposal&body=${trimmedBody}`)
+    return `https://github.com/${repo}/issues/new?title=New+Resource+Proposal&body=${trimmedBody}`
 }
 
 // removeURL will remove one of the URL fields
