@@ -5,7 +5,10 @@ var users = ['aleitner', 'fadiend', 'Wynmill']
 // Issue repo location
 var repo = "aleitner/OldEnglish"
 
-var converter = new showdown.Converter();
+var converter = new showdown.Converter({
+    tables: true, 
+    simplifiedAutoLink: true
+});
 
 // Retrieve all issues and populate
 window.onload = function() {
@@ -81,7 +84,7 @@ function populateRecent(newsPost) {
     issueMeta.innerHTML = date + " " + author
 
     var issueBody = document.getElementById("issueBody")
-    issueBody.innerHTML = htmlify(newsPost.body)
+    issueBody.innerHTML = converter.makeHtml(newsPost.body)
 
     var commentButtonDiv = document.getElementById("commentButton")
     commentButtonDiv.innerHTML = ""
@@ -100,7 +103,7 @@ function populateComments(comments) {
         var comment = comments[i]
         var date = `<em><font size="-1">${comment.created_at.slice(0,10)}</font></em>`
         var author = `<a href="${comment.user.html_url}">${comment.user.login}</a>`
-        var body = htmlify(comment.body)
+        var body = converter.makeHtml(comment.body)
 
         post = document.createElement("p");
         post.innerHTML = `<b>${author}</b> ${date} <br />${body}<br /><br />`
@@ -138,31 +141,6 @@ function populateOlderIssue(newsPost) {
     olderPosts.appendChild(post);
 }
 
-//htmlify will add tags to decorate text
-function htmlify(inputText) {
-    var replacedText, replacePattern1, replacePattern2, replacePattern3;
-
-    // convert markdown to html
-    replacedText = converter.makeHtml(inputText)
-
-    //URLs starting with http://, https://, or ftp://
-    replacePattern1 = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
-    replacedText = replacedText.replace(replacePattern1, '<a href="$1" target="_blank">$1</a>');
-
-    //URLs starting with "www." (without // before it, or it'd re-link the ones done above).
-    replacePattern2 = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
-    replacedText = replacedText.replace(replacePattern2, '$1<a href="http://$2" target="_blank">$2</a>');
-
-    //Change email addresses to mailto:: links.
-    replacePattern3 = /(([a-zA-Z0-9\-\_\.])+@[a-zA-Z\_]+?(\.[a-zA-Z]{2,6})+)/gim;
-    replacedText = replacedText.replace(replacePattern3, '<a href="mailto:$1">$1</a>');
-
-    replacePattern4 = /\r?\n/gim;
-    replacedText = replacedText.replace(replacePattern4, '<br />');
-
-    return replacedText;
-}
-
 // filterIssues will out issues that don't have a valid level or author
 function filterIssues(posts) {
     var filteredPosts = []
@@ -194,3 +172,11 @@ function doesIssueHaveValidUser(post) {
 
     return false
 }
+
+showdown.extension('bootstrap-tables', {
+	type: 'output',
+	filter: (html) => {
+		const regex = /<table>/g;
+		return html.replace(regex, '<table class="table table-bordered">');
+	},
+});
