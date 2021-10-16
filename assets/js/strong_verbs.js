@@ -55,6 +55,10 @@ function set_verb(idx) {
     verbClass.title = "Class " + verb.verbClass + " verb";
     verbId.innerHTML = idx;
 
+    document.getElementById("preterite-sg-answer").title = verb.preteriteSg;
+    document.getElementById("preterite-pl-answer").title = verb.preteritePl;
+    document.getElementById("past-participle-answer").title = verb.pastParticiple;
+
     document.getElementById("infinitive-res").innerHTML = "";
     document.getElementById("preterite-sg-res").innerHTML = "";
     document.getElementById("preterite-pl-res").innerHTML = "";
