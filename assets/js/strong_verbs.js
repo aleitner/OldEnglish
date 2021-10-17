@@ -4,32 +4,63 @@ function check_answer() {
     var preteritePl = document.getElementById("preterite-pl");
     var pastParticiple = document.getElementById("past-participle");
     var verbId = document.getElementById("verb-id");
+    var requireMacrons = document.getElementById("macronRequired").checked;
+    console.log(requireMacrons);
 
     var verb = strong_verbs_json[verbId.innerHTML];
 
-    if (infinitive.value == verb.infinitive) {
+    if (compare(verb.infinitive, infinitive.value, requireMacrons)) {
         document.getElementById("infinitive-res").innerHTML = "✅";
     } else {
         document.getElementById("infinitive-res").innerHTML = "❌";
     }
 
-    if (preteriteSg.value == verb.preteriteSg) {
+    if (compare(verb.preteriteSg, preteriteSg.value, requireMacrons)) {
         document.getElementById("preterite-sg-res").innerHTML = "✅";
     } else {
         document.getElementById("preterite-sg-res").innerHTML = "❌";
     }
 
-    if (preteritePl.value == verb.preteritePl) {
+    if (compare(verb.preteritePl, preteritePl.value, requireMacrons)) {
         document.getElementById("preterite-pl-res").innerHTML = "✅";
     } else {
         document.getElementById("preterite-pl-res").innerHTML = "❌";
     }
 
-    if (pastParticiple.value == verb.pastParticiple) {
+    if (compare(verb.pastParticiple, pastParticiple.value, requireMacrons)) {
         document.getElementById("past-participle-res").innerHTML = "✅";
     } else {
         document.getElementById("past-participle-res").innerHTML = "❌";
     }
+}
+
+function compare(expected, actual, requireMacrons) {
+    var actual = actual.toLowerCase()
+
+    actual = actual.replace(/ð/g, "þ");
+    expected = expected.replace(/ð/g, "þ");
+
+    actual = actual.replace(/ᵹ/g, "g");
+    expected = expected.replace(/ᵹ/g, "g");
+
+    actual = actual.replace(/ƿ/g, "w");
+    expected = expected.replace(/ƿ/g, "w");
+
+    actual = actual.replace(/ae/g, "æ");  
+
+    if (!requireMacrons) {
+        expected = expected.replace(/ǣ/g, "æ");
+        expected = expected.replace(/ā/g, "a");
+        expected = expected.replace(/ē/g, "e");
+        expected = expected.replace(/ī/g, "i");
+        expected = expected.replace(/ō/g, "o");
+        expected = expected.replace(/ū/g, "u");
+        expected = expected.replace(/ȳ/g, "y");
+        expected = expected.replace(/ġ/g, "g");
+        expected = expected.replace(/ċ/g, "c");
+    }
+
+    return actual == expected
 }
 
 function random_verb() {
