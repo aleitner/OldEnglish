@@ -92,16 +92,35 @@
                         </label>
                         <input id="past-participle" type="text" class="form-control" aria-label="past-participle">
                     </div>
+                </div>
                 <br />
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="macronRequired" checked>
-                    <label class="form-check-label" for="macronRequired">
-                        Require macrons
-                    </label>
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <input class="form-check-input" type="checkbox" value="" id="macronRequired" checked>
+                        <label class="form-check-label" for="macronRequired">
+                            Require macrons
+                        </label>
+                    </div>
+                        <div class="col-md-2 col-sm-12">
+                        <select id="verb-filter" class="form-select" aria-label="Strong Verb Classes" onChange="random_verb()">
+                            <option selected value="0">All Verbs</option>
+                            <option value="1">Class 1</option>
+                            <option value="2">Class 2</option>
+                            <option value="3">Class 3</option>
+                            <option value="4">Class 4</option>
+                            <option value="5">Class 5</option>
+                            <option value="6">Class 6</option>
+                            <option value="7">Class 7</option>
+                        </select>
+                    </div>
                 </div>
-                <button type="button" class="btn btn-primary" onclick="check_answer()">Check Answer</button>
-                <button type="button" class="btn btn-secondary" onclick="random_verb()">Random verb</button>
+                <br />
+
+                <div class="row">
+                    <button type="button" class="btn btn-primary" onclick="check_answer()">Check Answer</button>
+                    <button type="button" class="btn btn-secondary" onclick="random_verb()">Random verb</button>
+                </div>
             </form>
         </div>
     </body>

@@ -5,9 +5,9 @@ function check_answer() {
     var pastParticiple = document.getElementById("past-participle");
     var verbId = document.getElementById("verb-id");
     var requireMacrons = document.getElementById("macronRequired").checked;
-    console.log(requireMacrons);
 
-    var verb = strong_verbs_json[verbId.innerHTML];
+    var verbList = getVerbList()
+    var verb = verbList[verbId.innerHTML];
 
     if (compare(verb.infinitive, infinitive.value, requireMacrons)) {
         document.getElementById("infinitive-res").innerHTML = "✅";
@@ -74,14 +74,15 @@ function compare(expected, actual, requireMacrons) {
 }
 
 function random_verb() {
-    var verbIdx = Math.floor(Math.random()*strong_verbs_json.length);
+    var verbList = getVerbList()
 
-    set_verb(verbIdx)
+    var verbIdx = Math.floor(Math.random()*verbList.length);
+    var verb = verbList[verbIdx];
+
+    set_verb(verbIdx, verb);
 }
 
-function set_verb(idx) {
-    var verb = strong_verbs_json[idx];
-
+function set_verb(idx, verb) {
     document.getElementById("infinitive").value = verb.infinitive;
     document.getElementById("preterite-sg").value = ""
     document.getElementById("preterite-pl").value = ""
@@ -98,4 +99,18 @@ function set_verb(idx) {
     document.getElementById("preterite-sg-res").innerHTML = "";
     document.getElementById("preterite-pl-res").innerHTML = "";
     document.getElementById("past-participle-res").innerHTML = "";
+}
+
+function getVerbList() {
+    var filter = document.getElementById("verb-filter").value
+
+    filter_verbs = (filter == "0") ? strong_verbs_json : strong_verbs_json.filter(verb => verb.verbClass == filter);
+
+    if (filter_verbs.length == 0) {
+        alert("No verbs available for class " + filter);
+    }
+
+    document.getElementById("verb-filter").value = "0"
+
+    return strong_verbs_json
 }
