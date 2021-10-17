@@ -72,19 +72,13 @@ function random_verb() {
 function set_verb(idx) {
     var verb = strong_verbs_json[idx];
 
-    var infinitive = document.getElementById("infinitive");
-    var preteriteSg = document.getElementById("preterite-sg");
-    var preteritePl = document.getElementById("preterite-pl");
-    var pastParticiple = document.getElementById("past-participle");
-    var verbClass = document.getElementById("verb-class");
-    var verbId = document.getElementById("verb-id");
-
-    infinitive.value = verb.infinitive;
-    preteriteSg.value = ""
-    preteritePl.value = ""
-    pastParticiple.value = ""
-    verbClass.title = "Class " + verb.verbClass + " verb";
-    verbId.innerHTML = idx;
+    document.getElementById("infinitive").value = verb.infinitive;
+    document.getElementById("preterite-sg").value = ""
+    document.getElementById("preterite-pl").value = ""
+    document.getElementById("past-participle").value = ""
+    document.getElementById("verb-class").title = "Class " + verb.verbClass + " verb";
+    document.getElementById("verb-id").innerHTML = idx;
+    document.getElementById("verb-meaning").innerHTML = verb.meaning;
 
     document.getElementById("preterite-sg-answer").title = verb.preteriteSg;
     document.getElementById("preterite-pl-answer").title = verb.preteritePl;
