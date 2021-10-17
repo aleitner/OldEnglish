@@ -58,6 +58,16 @@ function compare(expected, actual, requireMacrons) {
         expected = expected.replace(/ȳ/g, "y");
         expected = expected.replace(/ġ/g, "g");
         expected = expected.replace(/ċ/g, "c");
+
+        actual = actual.replace(/ǣ/g, "æ");
+        actual = actual.replace(/ā/g, "a");
+        actual = actual.replace(/ē/g, "e");
+        actual = actual.replace(/ī/g, "i");
+        actual = actual.replace(/ō/g, "o");
+        actual = actual.replace(/ū/g, "u");
+        actual = actual.replace(/ȳ/g, "y");
+        actual = actual.replace(/ġ/g, "g");
+        actual = actual.replace(/ċ/g, "c");
     }
 
     return actual == expected
