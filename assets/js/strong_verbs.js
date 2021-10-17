@@ -35,7 +35,7 @@ function check_answer() {
 }
 
 function compare(expected, actual, requireMacrons) {
-    var actual = actual.toLowerCase()
+    var actual = actual.toLowerCase().trim();
 
     actual = actual.replace(/ð/g, "þ");
     expected = expected.replace(/ð/g, "þ");
@@ -114,3 +114,12 @@ function getVerbList() {
 
     return strong_verbs_json
 }
+
+$(".more_info").click(function () {
+    var $title = $(this).find(".title");
+    if (!$title.length) {
+        $(this).append('<span class="title">' + $(this).attr("title") + '</span>');
+    } else {
+        $title.remove();
+    }
+});
