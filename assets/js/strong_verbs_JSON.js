@@ -1,21 +1,5 @@
 var strong_verbs_json = [
     {
-        infinitive: "beran",
-        preteriteSg: "bær",
-        preteritePl: "bǣron",
-        pastParticiple: "boren",
-        meaning: "to bear",
-        verbClass: "4"
-    },
-    {
-        infinitive: "findan",
-        preteriteSg: "fand",
-        preteritePl: "fundon",
-        pastParticiple: "funden",
-        meaning: "to find",
-        verbClass: "3"
-    },
-    {
         infinitive: "drīfan",
         preteriteSg: "drāf",
         preteritePl: "drifon",
@@ -74,8 +58,8 @@ var strong_verbs_json = [
     {
         infinitive: "sċrīðan",
         preteriteSg: "sċrāþ",
-        preteritePl: "sċriðon",
-        pastParticiple: "sċriðen",
+        preteritePl: "sċridon",
+        pastParticiple: "sċriden",
         meaning: "to glide, creep",
         verbClass: "1"
     },
@@ -262,5 +246,189 @@ var strong_verbs_json = [
         pastParticiple: "flogen",
         meaning: "to fly, flee",
         verbClass: "2"
+    },
+    {
+        infinitive: "findan",
+        preteriteSg: "fand",
+        preteritePl: "fundon",
+        pastParticiple: "funden",
+        meaning: "to find, meet",
+        verbClass: "3"
+    },
+    {
+        infinitive: "bindan",
+        preteriteSg: "band",
+        preteritePl: "bundon",
+        pastParticiple: "bunden",
+        meaning: "to bind",
+        verbClass: "3"
+    },
+    {
+        infinitive: "grindan",
+        preteriteSg: "grand",
+        preteritePl: "grundon",
+        pastParticiple: "grunden",
+        meaning: "to grind",
+        verbClass: "3"
+    },
+    {
+        infinitive: "irnan",
+        preteriteSg: "arn",
+        preteritePl: "urnon",
+        pastParticiple: "urnen",
+        meaning: "to run",
+        verbClass: "3"
+    },
+    {
+        infinitive: "helpan",
+        preteriteSg: "healp",
+        preteritePl: "hulpon",
+        pastParticiple: "holpen",
+        meaning: "to help",
+        verbClass: "3"
+    },
+    {
+        infinitive: "meltan",
+        preteriteSg: "mealt",
+        preteritePl: "multon",
+        pastParticiple: "molten",
+        meaning: "to melt",
+        verbClass: "3"
+    },
+    {
+        infinitive: "delfan",
+        preteriteSg: "dealf",
+        preteritePl: "dulfon",
+        pastParticiple: "dulfen",
+        meaning: "to dig",
+        verbClass: "3"
+    },
+    {
+        infinitive: "feohtan",
+        preteriteSg: "feaht",
+        preteritePl: "fuhton",
+        pastParticiple: "fohten",
+        meaning: "to fight",
+        verbClass: "3"
+    },
+    {
+        infinitive: "weorpan",
+        preteriteSg: "wearp",
+        preteritePl: "wurpon",
+        pastParticiple: "worpen",
+        meaning: "to throw",
+        verbClass: "3"
+    },
+    {
+        infinitive: "ċeorfan",
+        preteriteSg: "ċearf",
+        preteritePl: "curfon",
+        pastParticiple: "corfen",
+        meaning: "to carve",
+        verbClass: "3"
+    },
+    {
+        infinitive: "weorðan",
+        preteriteSg: "wearþ",
+        preteritePl: "wurdon",
+        pastParticiple: "worden",
+        meaning: "to become",
+        verbClass: "3"
+    },
+    {
+        infinitive: "ġieldan",
+        preteriteSg: "ġeald",
+        preteritePl: "guldon",
+        pastParticiple: "golden",
+        meaning: "to yield",
+        verbClass: "3"
+    },
+    {
+        infinitive: "ġiellan",
+        preteriteSg: "ġeall",
+        preteritePl: "gullon",
+        pastParticiple: "gollen",
+        meaning: "to yell",
+        verbClass: "3"
+    },
+    {
+        infinitive: "climban",
+        preteriteSg: "clamb",
+        preteritePl: "clumbon",
+        pastParticiple: "clomben",
+        meaning: "to climb, mount",
+        verbClass: "3"
+    },
+    {
+        infinitive: "drincan",
+        preteriteSg: "dranc",
+        preteritePl: "druncon",
+        pastParticiple: "droncen",
+        meaning: "to drink",
+        verbClass: "3"
+    },
+    {
+        infinitive: "friġnan",
+        preteriteSg: "fræġn",
+        preteritePl: "frugnon",
+        pastParticiple: "frugnen",
+        meaning: "to ask, inquire",
+        verbClass: "3"
+    },
+    {
+        infinitive: "hweorfan",
+        preteriteSg: "hwearf",
+        preteritePl: "hurfon",
+        pastParticiple: "hworfen",
+        meaning: "to turn, turn aside",
+        verbClass: "3"
+    },
+    {
+        infinitive: "murnan",
+        preteriteSg: "mearn",
+        preteritePl: "murnon",
+        pastParticiple: "mornen",
+        meaning: "to mourn, lament",
+        verbClass: "3"
+    },
+    {
+        infinitive: "springan",
+        preteriteSg: "sprang",
+        preteritePl: "sprungon",
+        pastParticiple: "sprongen",
+        meaning: "to jump, leap, rise",
+        verbClass: "3"
+    },
+    {
+        infinitive: "sweltan",
+        preteriteSg: "swealt",
+        preteritePl: "swulton",
+        pastParticiple: "swolten",
+        meaning: "to die",
+        verbClass: "3"
+    },
+    {
+        infinitive: "winnan",
+        preteriteSg: "wann",
+        preteritePl: "wunnon",
+        pastParticiple: "wonnen",
+        meaning: "to content, fight against",
+        verbClass: "3"
+    },
+    {
+        infinitive: "fēolan",
+        preteriteSg: "fealh",
+        preteritePl: "fulgon",
+        pastParticiple: "folgen",
+        meaning: "to reach, touch, feel",
+        verbClass: "3"
+    },
+    {
+        infinitive: "beran",
+        preteriteSg: "bær",
+        preteritePl: "bǣron",
+        pastParticiple: "boren",
+        meaning: "to bear",
+        verbClass: "4"
     }
 ]
