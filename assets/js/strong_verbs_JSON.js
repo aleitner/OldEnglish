@@ -412,7 +412,7 @@ var strong_verbs_json = [
         preteriteSg: "wann",
         preteritePl: "wunnon",
         pastParticiple: "wonnen",
-        meaning: "to content, fight against",
+        meaning: "to contend, fight against",
         verbClass: "3"
     },
     {
