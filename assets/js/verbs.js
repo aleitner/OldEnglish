@@ -1,4 +1,5 @@
-var sessionVerbs;
+var sessionVerbs = [];
+var completedVerbs = [];
 
 function initialize() {
     sessionVerbs = verbs_json;
@@ -6,12 +7,44 @@ function initialize() {
     set_random_verb();
 }
 
+function clear_table() {
+    // Clear inputs
+    document.getElementById("infinitive").value = "";
+    document.getElementById("preterite-sg").value = "";
+    document.getElementById("preterite-pl").value = "";
+    document.getElementById("past-participle").value = "";
+    document.getElementById("verb-id").innerHTML = "";
+    document.getElementById("verb-meaning").innerHTML = "";
+
+    // Clear emoji
+    document.getElementById("infinitive-res").innerHTML = "";
+    document.getElementById("preterite-sg-res").innerHTML = "";
+    document.getElementById("preterite-pl-res").innerHTML = "";
+    document.getElementById("past-participle-res").innerHTML = "";
+
+    // Clear tooltips
+    document.getElementById("verb-class").title = "";
+    document.getElementById("preterite-sg-answer").title = "";
+    document.getElementById("preterite-pl-answer").title = "";
+    document.getElementById("past-participle-answer").title = "";
+}
+
 function set_random_verb() {
+    if (sessionVerbs.length == 0) {
+        clear_table();
+        alert("No verbs available");
+        return;
+    }
+
     var obj = random_verb();
     set_verb(obj.idx, obj.verb);
 }
 
 function check_answer() {
+    if (sessionVerbs.length == 0) {
+        return;
+    }
+
     var infinitive = document.getElementById("infinitive");
     var preteriteSg = document.getElementById("preterite-sg");
     var preteritePl = document.getElementById("preterite-pl");
@@ -120,16 +153,22 @@ function set_verb(idx, verb) {
     document.getElementById("past-participle-res").innerHTML = "";
 }
 
+function remove_verb() {
+    var verbId = document.getElementById("verb-id").innerHTML;
+    var verb = sessionVerbs[verbId];
+
+    verbs_json = verbs_json.filter(obj => obj.infinitive != verb.infinitive);
+
+    onFilterChange();
+}
+
 function onFilterChange() {
     var checked = document.querySelectorAll('#verb-filter :checked');
     var selected = [...checked].map(option => option.value);
 
     sessionVerbs = selected[0] == "0" ? verbs_json : verbs_json.filter(verb => selected.includes(verb.verbClass));
 
-    console.log(sessionVerbs.length)
-
     if (sessionVerbs.length == 0) {
-        alert("No verbs available for class " + selected);
         document.getElementById("verb-filter").value = "0";
         sessionVerbs = verbs_json;
     }
