@@ -69,8 +69,14 @@ function compare(expected, actual, requireMacrons) {
         actual = actual.replace(/ġ/g, "g");
         actual = actual.replace(/ċ/g, "c");
     }
+    
+    for (const possibility of expected.split(/[ ,]+/)) {
+        if (actual == possibility) {
+            return true
+        }
+    }
 
-    return actual == expected
+    return false
 }
 
 function random_verb() {

@@ -495,4 +495,252 @@ var strong_verbs_json = [
         meaning: "to twirl",
         verbClass: "4"
     },
+    {
+        infinitive: "etan",
+        preteriteSg: "æt",
+        preteritePl: "ǣton",
+        pastParticiple: "eten",
+        meaning: "to eat",
+        verbClass: "5"
+    },
+    {
+        infinitive: "metan",
+        preteriteSg: "mæt",
+        preteritePl: "mǣton",
+        pastParticiple: "meten",
+        meaning: "to measure",
+        verbClass: "5"
+    },
+    {
+        infinitive: "wrecan",
+        preteriteSg: "wræc",
+        preteritePl: "wrǣcon",
+        pastParticiple: "wrecen",
+        meaning: "to wreak, punish",
+        verbClass: "5"
+    },
+    {
+        infinitive: "tredan",
+        preteriteSg: "træd",
+        preteritePl: "trǣdon",
+        pastParticiple: "treden",
+        meaning: "to tread",
+        verbClass: "5"
+    },
+    {
+        infinitive: "biddan",
+        preteriteSg: "bæd",
+        preteritePl: "bǣdon",
+        pastParticiple: "beden",
+        meaning: "to ask, entreat",
+        verbClass: "5"
+    },
+    {
+        infinitive: "cweðan",
+        preteriteSg: "cwæþ",
+        preteritePl: "cwǣdon",
+        pastParticiple: "cweden",
+        meaning: "to say, quote",
+        verbClass: "5"
+    },
+    {
+        infinitive: "wesan",
+        preteriteSg: "wæs",
+        preteritePl: "wǣron",
+        pastParticiple: "weren",
+        meaning: "to be (preterite)",
+        verbClass: "5"
+    },
+    {
+        infinitive: "ġiefan",
+        preteriteSg: "ġeaf",
+        preteritePl: "ġēafon",
+        pastParticiple: "ġiefen",
+        meaning: "to give",
+        verbClass: "5"
+    },
+    {
+        infinitive: "ġietan",
+        preteriteSg: "ġeat",
+        preteritePl: "ġēaton",
+        pastParticiple: "ġieten",
+        meaning: "to get",
+        verbClass: "5"
+    },
+    {
+        infinitive: "sittan",
+        preteriteSg: "sæt",
+        preteritePl: "sǣton",
+        pastParticiple: "seten",
+        meaning: "to sit",
+        verbClass: "5"
+    },
+    {
+        infinitive: "liċgan",
+        preteriteSg: "læġ",
+        preteritePl: "lǣġon",
+        pastParticiple: "leġen",
+        meaning: "to lie",
+        verbClass: "5"
+    },
+    {
+        infinitive: "sēon",
+        preteriteSg: "seah",
+        preteritePl: "sǣġon, sāwon",
+        pastParticiple: "sewen",
+        meaning: "to see",
+        verbClass: "5"
+    },
+    {
+        infinitive: "standan",
+        preteriteSg: "stōd",
+        preteritePl: "stōdon",
+        pastParticiple: "standen",
+        meaning: "to stand",
+        verbClass: "6"
+    },
+    {
+        infinitive: "āwacan",
+        preteriteSg: "āwōc",
+        preteritePl: "āwōcon",
+        pastParticiple: "āwacen",
+        meaning: "to awake",
+        verbClass: "6"
+    },
+    {
+        infinitive: "faran",
+        preteriteSg: "fōr",
+        preteritePl: "fōron",
+        pastParticiple: "faren",
+        meaning: "to travel, go",
+        verbClass: "6"
+    },
+    {
+        infinitive: "dragan",
+        preteriteSg: "drōg",
+        preteritePl: "drōgon",
+        pastParticiple: "dragen",
+        meaning: "to draw, drag, pull",
+        verbClass: "6"
+    },
+    {
+        infinitive: "hebban",
+        preteriteSg: "hōf",
+        preteritePl: "hōfon",
+        pastParticiple: "hafen",
+        meaning: "to lift, heave",
+        verbClass: "6"
+    },
+    {
+        infinitive: "steppan",
+        preteriteSg: "stōp",
+        preteritePl: "stōpon",
+        pastParticiple: "stapen",
+        meaning: "to step",
+        verbClass: "6"
+    },
+    {
+        infinitive: "swerian",
+        preteriteSg: "swōr",
+        preteritePl: "swōron",
+        pastParticiple: "swaren, swaran",
+        meaning: "to swear",
+        verbClass: "6"
+    },
+    {
+        infinitive: "sċieppan",
+        preteriteSg: "sċōp",
+        preteritePl: "sċōpon",
+        pastParticiple: "sċafen, sċeapen",
+        meaning: "to make, create, shape",
+        verbClass: "6"
+    },
+    {
+        infinitive: "sċeacan",
+        preteriteSg: "sċōc",
+        preteritePl: "sċōcon",
+        pastParticiple: "sċeacen",
+        meaning: "to move, shake",
+        verbClass: "6"
+    },
+    {
+        infinitive: "weaxan",
+        preteriteSg: "wōx",
+        preteritePl: "wōxon",
+        pastParticiple: "waxen",
+        meaning: "to grow, increase",
+        verbClass: "6"
+    },
+    {
+        infinitive: "hebban",
+        preteriteSg: "hōf",
+        preteritePl: "hōfon",
+        pastParticiple: "hafen",
+        meaning: "to lift",
+        verbClass: "6"
+    },
+    {
+        infinitive: "slēan",
+        preteriteSg: "slōh, slōg",
+        preteritePl: "slōgon",
+        pastParticiple: "slaġen, slǣġen",
+        meaning: "to slay",
+        verbClass: "6"
+    },
+    {
+        infinitive: "hātan",
+        preteriteSg: "hēt",
+        preteritePl: "hēton",
+        pastParticiple: "hāten",
+        meaning: "to name, call",
+        verbClass: "7"
+    },
+    {
+        infinitive: "drǣdan",
+        preteriteSg: "drēd",
+        preteritePl: "drēdon",
+        pastParticiple: "drǣden",
+        meaning: "to dread, fear",
+        verbClass: "7"
+    },
+    {
+        infinitive: "lǣtan",
+        preteriteSg: "lēt",
+        preteritePl: "lēton",
+        pastParticiple: "lǣten",
+        meaning: "to allow, let",
+        verbClass: "7"
+    },
+    {
+        infinitive: "feallan",
+        preteriteSg: "fēoll",
+        preteritePl: "fēollon",
+        pastParticiple: "feallen",
+        meaning: "to fall",
+        verbClass: "7"
+    },
+    {
+        infinitive: "healdan",
+        preteriteSg: "hēold",
+        preteritePl: "hēoldon",
+        pastParticiple: "healden",
+        meaning: "to hold, keep, rule",
+        verbClass: "7"
+    },
+    {
+        infinitive: "wealdan",
+        preteriteSg: "wēold",
+        preteritePl: "wēoldon",
+        pastParticiple: "wealden",
+        meaning: "to wield",
+        verbClass: "7"
+    },
+    {
+        infinitive: "fōn",
+        preteriteSg: "fēng",
+        preteritePl: "fēngon",
+        pastParticiple: "fangen",
+        meaning: "to take, seize, receive",
+        verbClass: "7"
+    },
 ]
