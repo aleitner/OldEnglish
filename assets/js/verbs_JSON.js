@@ -1,4 +1,4 @@
-var strong_verbs_json = [
+var verbs_json = [
     {
         infinitive: "drīfan",
         preteriteSg: "drāf",

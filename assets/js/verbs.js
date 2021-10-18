@@ -1,7 +1,7 @@
 var sessionVerbs;
 
 function initialize() {
-    sessionVerbs = strong_verbs_json;
+    sessionVerbs = verbs_json;
 
     set_random_verb();
 }
@@ -124,14 +124,14 @@ function onFilterChange() {
     var checked = document.querySelectorAll('#verb-filter :checked');
     var selected = [...checked].map(option => option.value);
 
-    sessionVerbs = selected[0] == "0" ? strong_verbs_json : strong_verbs_json.filter(verb => selected.includes(verb.verbClass));
+    sessionVerbs = selected[0] == "0" ? verbs_json : verbs_json.filter(verb => selected.includes(verb.verbClass));
 
     console.log(sessionVerbs.length)
 
     if (sessionVerbs.length == 0) {
         alert("No verbs available for class " + selected);
         document.getElementById("verb-filter").value = "0";
-        sessionVerbs = strong_verbs_json;
+        sessionVerbs = verbs_json;
     }
 
     set_random_verb();
