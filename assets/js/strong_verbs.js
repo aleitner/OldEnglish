@@ -1,3 +1,16 @@
+var sessionVerbs;
+
+function initialize() {
+    sessionVerbs = strong_verbs_json;
+
+    set_random_verb();
+}
+
+function set_random_verb() {
+    var obj = random_verb();
+    set_verb(obj.idx, obj.verb);
+}
+
 function check_answer() {
     var infinitive = document.getElementById("infinitive");
     var preteriteSg = document.getElementById("preterite-sg");
@@ -6,8 +19,7 @@ function check_answer() {
     var verbId = document.getElementById("verb-id");
     var requireMacrons = document.getElementById("macronRequired").checked;
 
-    var verbList = getVerbList()
-    var verb = verbList[verbId.innerHTML];
+    var verb = sessionVerbs[verbId.innerHTML];
 
     if (compare(verb.infinitive, infinitive.value, requireMacrons)) {
         document.getElementById("infinitive-res").innerHTML = "✅";
@@ -69,7 +81,7 @@ function compare(expected, actual, requireMacrons) {
         actual = actual.replace(/ġ/g, "g");
         actual = actual.replace(/ċ/g, "c");
     }
-    
+
     for (const possibility of expected.split(/[ ,]+/)) {
         if (actual == possibility) {
             return true
@@ -80,12 +92,13 @@ function compare(expected, actual, requireMacrons) {
 }
 
 function random_verb() {
-    var verbList = getVerbList()
+    var verbIdx = Math.floor(Math.random()*sessionVerbs.length);
+    var verb = sessionVerbs[verbIdx];
 
-    var verbIdx = Math.floor(Math.random()*verbList.length);
-    var verb = verbList[verbIdx];
-
-    set_verb(verbIdx, verb);
+    return {
+        verb: verb, 
+        idx: verbIdx
+    };
 }
 
 function set_verb(idx, verb) {
@@ -107,16 +120,15 @@ function set_verb(idx, verb) {
     document.getElementById("past-participle-res").innerHTML = "";
 }
 
-function getVerbList() {
+function onFilterChange() {
     var filter = document.getElementById("verb-filter").value
+    sessionVerbs = (filter == "0") ? strong_verbs_json : strong_verbs_json.filter(verb => verb.verbClass == filter);
 
-    filter_verbs = (filter == "0") ? strong_verbs_json : strong_verbs_json.filter(verb => verb.verbClass == filter);
-
-    if (filter_verbs.length == 0) {
+    if (sessionVerbs.length == 0) {
         alert("No verbs available for class " + filter);
         document.getElementById("verb-filter").value = "0";
-        filter_verbs = strong_verbs_json;
+        sessionVerbs = strong_verbs_json;
     }
 
-    return filter_verbs;
+    set_random_verb();
 }

@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="assets/css/strongverbs.css">
     </head>
 
-    <body onload="random_verb()">
+    <body onload="initialize()">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Old English</a>
@@ -103,7 +103,7 @@
                         </label>
                     </div>
                         <div class="col-md-2 col-sm-12">
-                        <select id="verb-filter" class="form-select" aria-label="Strong Verb Classes" onChange="random_verb()">
+                        <select id="verb-filter" class="form-select" aria-label="Strong Verb Classes" onChange="onFilterChange()">
                             <option selected value="0">All Verbs</option>
                             <option value="1">Class 1</option>
                             <option value="2">Class 2</option>
@@ -119,7 +119,7 @@
 
                 <div class="row">
                     <button type="button" class="btn btn-primary" onclick="check_answer()">Check Answer</button>
-                    <button type="button" class="btn btn-secondary" onclick="random_verb()">Random verb</button>
+                    <button type="button" class="btn btn-secondary" onclick="set_random_verb()">Random verb</button>
                 </div>
             </form>
         </div>
