@@ -108,9 +108,9 @@ function getVerbList() {
 
     if (filter_verbs.length == 0) {
         alert("No verbs available for class " + filter);
+        document.getElementById("verb-filter").value = "0";
+        filter_verbs = strong_verbs_json;
     }
 
-    document.getElementById("verb-filter").value = "0"
-
-    return strong_verbs_json
+    return filter_verbs;
 }

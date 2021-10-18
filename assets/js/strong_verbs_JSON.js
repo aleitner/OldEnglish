@@ -428,7 +428,71 @@ var strong_verbs_json = [
         preteriteSg: "bær",
         preteritePl: "bǣron",
         pastParticiple: "boren",
-        meaning: "to bear",
+        meaning: "to bear, carry",
         verbClass: "4"
-    }
+    },
+    {
+        infinitive: "stelan",
+        preteriteSg: "stæl",
+        preteritePl: "stǣlon",
+        pastParticiple: "stolen",
+        meaning: "to steal",
+        verbClass: "4"
+    },
+    {
+        infinitive: "sċieran",
+        preteriteSg: "sċear",
+        preteritePl: "sċēaron",
+        pastParticiple: "sċoren",
+        meaning: "to cut",
+        verbClass: "4"
+    },
+    {
+        infinitive: "cuman",
+        preteriteSg: "cōm",
+        preteritePl: "cōmon",
+        pastParticiple: "cumen",
+        meaning: "to come",
+        verbClass: "4"
+    },
+    {
+        infinitive: "niman",
+        preteriteSg: "nām",
+        preteritePl: "nāmon",
+        pastParticiple: "nomen",
+        meaning: "to take",
+        verbClass: "4"
+    },
+    {
+        infinitive: "brecan",
+        preteriteSg: "bræc",
+        preteritePl: "brǣcon",
+        pastParticiple: "brocen",
+        meaning: "to break",
+        verbClass: "4"
+    },
+    {
+        infinitive: "cwelan",
+        preteriteSg: "cwæl",
+        preteritePl: "cwǣlon",
+        pastParticiple: "cwolen",
+        meaning: "to die",
+        verbClass: "4"
+    },
+    {
+        infinitive: "teran",
+        preteriteSg: "tær",
+        preteritePl: "tǣron",
+        pastParticiple: "toren",
+        meaning: "to tear",
+        verbClass: "4"
+    },
+    {
+        infinitive: "þweran",
+        preteriteSg: "þwær",
+        preteritePl: "þwǣron",
+        pastParticiple: "þworen",
+        meaning: "to twirl",
+        verbClass: "4"
+    },
 ]
