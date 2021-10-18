@@ -121,11 +121,15 @@ function set_verb(idx, verb) {
 }
 
 function onFilterChange() {
-    var filter = document.getElementById("verb-filter").value
-    sessionVerbs = (filter == "0") ? strong_verbs_json : strong_verbs_json.filter(verb => verb.verbClass == filter);
+    var checked = document.querySelectorAll('#verb-filter :checked');
+    var selected = [...checked].map(option => option.value);
+
+    sessionVerbs = selected[0] == "0" ? strong_verbs_json : strong_verbs_json.filter(verb => selected.includes(verb.verbClass));
+
+    console.log(sessionVerbs.length)
 
     if (sessionVerbs.length == 0) {
-        alert("No verbs available for class " + filter);
+        alert("No verbs available for class " + selected);
         document.getElementById("verb-filter").value = "0";
         sessionVerbs = strong_verbs_json;
     }
