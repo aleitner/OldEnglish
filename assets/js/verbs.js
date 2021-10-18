@@ -155,11 +155,32 @@ function set_verb(idx, verb) {
 
 function remove_verb() {
     var verbId = document.getElementById("verb-id").innerHTML;
+    if (verbId == "") {
+        return;
+    }
+
     var verb = sessionVerbs[verbId];
+
+    completedVerbs = [verb].concat(completedVerbs);
 
     verbs_json = verbs_json.filter(obj => obj.infinitive != verb.infinitive);
 
     onFilterChange();
+
+    displayRemovedVerbs()
+}
+
+function displayRemovedVerbs() {
+    var knownVerbs = document.getElementById("known-verbs");
+    knownVerbs.innerHTML = "";
+
+    for (const verb of completedVerbs) {
+        var verbDiv = document.createElement("div");
+        knownVerbs.appendChild(verbDiv);
+
+        newContent = document.createTextNode(`${verb.infinitive}, ${verb.preteriteSg}, ${verb.preteritePl}, ${verb.pastParticiple}`);
+        verbDiv.appendChild(newContent);
+    }
 }
 
 function onFilterChange() {
