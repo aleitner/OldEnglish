@@ -743,4 +743,123 @@ var verbs_json = [
         meaning: "to take, seize, receive",
         verbClass: "7"
     },
+    {
+        infinitive: "underþēodan",
+        preteriteSg: "underþeodde",
+        pastParticiple: "underþēod",
+        meaning: "to subjugate",
+        verbClass: "i"
+    },
+    {
+        infinitive: "fremman",
+        preteriteSg: "fremede",
+        pastParticiple: "fremed",
+        meaning: "to make, create",
+        verbClass: "i"
+    },
+    {
+        infinitive: "dēman",
+        preteriteSg: "dēmde",
+        pastParticiple: "dēmed",
+        meaning: "to judge",
+        verbClass: "i"
+    },
+    {
+        infinitive: "cēpan",
+        preteriteSg: "cēpte",
+        pastParticiple: "cēpt",
+        meaning: "to observe, heed, care for",
+        verbClass: "i"
+    },
+    {
+        infinitive: "rīxian",
+        preteriteSg: "rīxode",
+        pastParticiple: "rīxod",
+        meaning: "to rule, reign",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "ġesamnian",
+        preteriteSg: "ġesamnode",
+        pastParticiple: "ġesamnod",
+        meaning: "to gather, assemble",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "ācsian, āxian",
+        preteriteSg: "ācsode, āxode",
+        pastParticiple: "ācsod, āxod",
+        meaning: "to ask, inquire, learn by inquire",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "campian",
+        preteriteSg: "campode",
+        pastParticiple: "campode",
+        meaning: "to fight, enage in battle",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "eardian",
+        preteriteSg: "eardode",
+        pastParticiple: "eardod",
+        meaning: "to inhabit, occupy",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "fisċian",
+        preteriteSg: "fisċode",
+        pastParticiple: "fisċode",
+        meaning: "to fish",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "ġislian",
+        preteriteSg: "ġisilode",
+        pastParticiple: "ġisilod",
+        meaning: "to provide with hostages",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "huntian",
+        preteriteSg: "huntode",
+        pastParticiple: "huntod",
+        meaning: "to hunt",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "lōcian",
+        preteriteSg: "lōcode",
+        pastParticiple: "lōcod",
+        meaning: "to see, observe",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "sċeawian",
+        preteriteSg: "sċeawode",
+        pastParticiple: "sċeawod",
+        meaning: "to observe, look upon",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "tilian",
+        preteriteSg: "tilode",
+        pastParticiple: "tilod",
+        meaning: "to strive for, improve; to till (soil)",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "þrowian",
+        preteriteSg: "þrowode",
+        pastParticiple: "þrowod",
+        meaning: "to endure",
+        verbClass: "ii"
+    },
+    {
+        infinitive: "wunian",
+        preteriteSg: "wunode",
+        pastParticiple: "wunod",
+        meaning: "to remain, stay, dwell",
+        verbClass: "ii"
+    },
 ]

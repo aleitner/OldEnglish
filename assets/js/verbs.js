@@ -135,17 +135,36 @@ function random_verb() {
 }
 
 function set_verb(idx, verb) {
+    switch (verb.verbClass) {
+        case "1":
+        case "2":
+        case "3":
+        case "4":
+        case "5":
+        case "6":
+        case "7":
+            document.getElementById("preterite-pl-row").style.display = "block";
+            break
+        case 'i':
+        case 'ii':
+        case 'iii':
+            document.getElementById("preterite-pl-row").style.display = "none";
+            break
+        case 'pp':
+        default:
+    }
+
     document.getElementById("infinitive").value = verb.infinitive;
     document.getElementById("preterite-sg").value = ""
     document.getElementById("preterite-pl").value = ""
     document.getElementById("past-participle").value = ""
-    document.getElementById("verb-class").title = "Class " + verb.verbClass + " verb";
     document.getElementById("verb-id").innerHTML = idx;
     document.getElementById("verb-meaning").innerHTML = verb.meaning;
 
     document.getElementById("preterite-sg-answer").title = verb.preteriteSg;
     document.getElementById("preterite-pl-answer").title = verb.preteritePl;
     document.getElementById("past-participle-answer").title = verb.pastParticiple;
+    document.getElementById("verb-class").title = "Class " + verb.verbClass + " verb";
 
     document.getElementById("infinitive-res").innerHTML = "";
     document.getElementById("preterite-sg-res").innerHTML = "";
