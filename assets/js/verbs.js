@@ -103,6 +103,7 @@ function compare(expected, actual, requireMacrons) {
         expected = expected.replace(/ȳ/g, "y");
         expected = expected.replace(/ġ/g, "g");
         expected = expected.replace(/ċ/g, "c");
+        expected = expected.replace(/þ/g, "th");
 
         actual = actual.replace(/ǣ/g, "æ");
         actual = actual.replace(/ā/g, "a");
@@ -113,6 +114,7 @@ function compare(expected, actual, requireMacrons) {
         actual = actual.replace(/ȳ/g, "y");
         actual = actual.replace(/ġ/g, "g");
         actual = actual.replace(/ċ/g, "c");
+        actual = actual.replace(/þ/g, "th");
     }
 
     for (const possibility of expected.split(/[ ,]+/)) {
