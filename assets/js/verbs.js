@@ -80,6 +80,10 @@ function check_answer() {
 }
 
 function compare(expected, actual, requireMacrons) {
+    if (typeof expected === 'undefined' || typeof actual === 'undefined') {
+        return false;
+    }
+
     var actual = actual.toLowerCase().trim();
 
     actual = actual.replace(/ð/g, "þ");

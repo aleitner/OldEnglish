@@ -299,7 +299,7 @@ var verbs_json = [
         infinitive: "delfan",
         preteriteSg: "dealf",
         preteritePl: "dulfon",
-        pastParticiple: "dulfen",
+        pastParticiple: "dolfen",
         meaning: "to dig",
         verbClass: "3"
     },
