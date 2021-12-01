@@ -203,7 +203,20 @@ function displayRemovedVerbs() {
         var verbDiv = document.createElement("div");
         knownVerbs.appendChild(verbDiv);
 
-        newContent = document.createTextNode(`${verb.infinitive}, ${verb.preteriteSg}, ${verb.preteritePl}, ${verb.pastParticiple}`);
+        var words = [];
+        if (typeof verb.infinitive !== undefined && verb.infinitive != null) {
+            words.push(verb.infinitive);
+        }
+        if (typeof verb.preteriteSg !== undefined && verb.preteriteSg != null) {
+            words.push(verb.preteriteSg);
+        }
+        if (typeof verb.preteritePl !== undefined && verb.preteritePl != null) {
+            words.push(verb.preteritePl);
+        }
+        if (typeof verb.pastParticiple !== undefined && verb.pastParticiple != null) {
+            words.push(verb.pastParticiple);
+        }
+        newContent = document.createTextNode(words.toString());
         verbDiv.appendChild(newContent);
     }
 }
@@ -220,4 +233,16 @@ function onFilterChange() {
     }
 
     set_random_verb();
+}
+
+function fillPretSg() {
+    document.getElementById("preterite-sg").value = document.getElementById("preterite-sg-answer").title.split(", ")
+}
+
+function fillPretPl() {
+    document.getElementById("preterite-pl").value = document.getElementById("preterite-pl-answer").title.split(", ")
+}
+
+function fillPastPart() {
+    document.getElementById("past-participle").value = document.getElementById("past-participle-answer").title.split(",")
 }

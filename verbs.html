@@ -67,28 +67,36 @@
                 <div class="row">
                     <div id="infinitive-row" class="col-md-3 col-sm-12">
                         <label class="col-form-label" for="infinitive">
-                            <span class="more_info" id="verb-class" title="">Infinitive</span>
+                            <button id="verb-class" type="button" class="btn btn-secondary" title="">
+                                Infinitive
+                            </button>
                             <span id="infinitive-res"></span>
                         </label>
                         <input id ="infinitive" type="text" class="form-control" aria-label="infinitive">
                     </div>
                     <div id="preterite-sg-row" class="col-md-3 col-sm-12">
                         <label class="col-form-label" for="preterite-sg">
-                            <span class="more_info" id="preterite-sg-answer" title="">Preterite Sg.</span>
+                            <button id="preterite-sg-answer" type="button" class="btn btn-secondary" title="" onclick="fillPretSg()">
+                                Preterite Sg.
+                            </button>
                             <span id="preterite-sg-res"></span>
                         </label>
                         <input id="preterite-sg" type="text" class="form-control" aria-label="preterite-sg">
                     </div>
                     <div id="preterite-pl-row" class="col-md-3 col-sm-12">
                         <label class="col-form-label" for="preterite-pl">
-                            <span class="more_info" id="preterite-pl-answer" title="">Preterite Pl.</span>
+                            <button id="preterite-pl-answer" type="button" class="btn btn-secondary" title="" onclick="fillPretPl()">
+                                Preterite Pl.
+                            </button>
                             <span id="preterite-pl-res"></span>
                         </label>
                         <input id="preterite-pl" type="text" class="form-control" aria-label="preterite-pl">
                     </div>
                     <div id="past-participle-row" class="col-md-3 col-sm-12">
                         <label class="col-form-label" for="past-participle">
-                            <span class="more_info" id="past-participle-answer" title="">Past Participle</span>
+                            <button id="past-participle-answer" type="button" class="btn btn-secondary" title="" onclick="fillPastPart()">
+                                Past Participle
+                            </button>
                             <span id="past-participle-res"></span>
                         </label>
                         <input id="past-participle" type="text" class="form-control" aria-label="past-participle">
@@ -135,5 +143,6 @@
         </div>
     </body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </html>
