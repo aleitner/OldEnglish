@@ -24,6 +24,17 @@ function reset() {
     guess_count = 0;
     game_over = false;
 
+    // Clear keyboard
+    let divs = document.getElementById('keyboard-cont').children;
+    for (const div of divs) {
+        let newline = '';
+        let buttons = div.children;
+        for (const button of buttons) {
+            button.style.backgroundColor = '';
+        }
+    }
+
+    // New Answer
     answer = WORDS[Math.floor(Math.random() * WORDS.length)].toLowerCase().split('');
     for (let i = 0; i < answer.length; i++) {
         answer[i] = modernizeLetter(answer[i]);
