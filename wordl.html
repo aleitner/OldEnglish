@@ -68,6 +68,7 @@
 
         <h1>Wordl</h1>
         <div id="board"></div>
+
         <div id="keyboard-cont">
             <div class="first-row">
                 <button type="button" class="btn btn-outline-dark keyboard-button disable-dbl-tap-zoom">w</button>
@@ -100,6 +101,26 @@
                 <button type="button" class="btn btn-outline-dark keyboard-button disable-dbl-tap-zoom">n</button>
                 <button type="button" class="btn btn-outline-dark keyboard-button disable-dbl-tap-zoom">m</button>
                 <button type="button" class="btn btn-outline-dark keyboard-button disable-dbl-tap-zoom">Enter</button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="endScreenModal" tabindex="-1" aria-labelledby="endScreenModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Congrats</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            <p>þu dydest hit!</p>
+                            <div id="word"></div>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success" onclick="copyBoard()">Share</button>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

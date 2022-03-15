@@ -29,7 +29,7 @@ document.getElementById("keyboard-cont").addEventListener("click", function(even
     } 
 
     document.dispatchEvent(new KeyboardEvent("keyup", {'key': key}))
-})
+});
 
 document.addEventListener('keyup', function(event) {
     const key = event.key.toLowerCase();
@@ -54,7 +54,8 @@ document.addEventListener('keyup', function(event) {
                 guesses.push(current_guess);
 
                 if (current_guess.join("") === answer.join("")) {
-                    alert("þu dydest hit!");
+                    document.getElementById('word').innerHTML = `See definition here: <a href='http://oedict.furrykef.com/dict/oe/${answer.join('')}'>${answer.join('')}</a>`
+                    $("#endScreenModal").modal("show");
                     game_over = true;
                 } else if (guess_count === MAX_GUESSES) {
                     alert("þæt rihte word is: " + answer.join(""));
@@ -91,6 +92,61 @@ function isWordInList(word){
         }
     });
 }
+
+function copyBoard() {
+    let lines = [`englisc wordl ${guess_count}/${MAX_GUESSES}`];
+    let divs = document.getElementById('board').children;
+    for (const div of divs) {
+        let newline = '';
+        let spans = div.children;
+        for (const span of spans) {
+            switch(span.style.backgroundColor) {
+                case 'gray':
+                    newline = newline.concat('⬜');
+                    break;
+                case 'green':
+                    newline = newline.concat('🟩');
+                    break;
+                case 'yellow':
+                    newline = newline.concat('🟨');
+                    break;
+            }
+        }
+
+        lines.push(newline);
+    }
+
+    copyTextToClipboard(lines.join("\r\n"));
+}
+
+function copyTextToClipboard(text) {
+    if (!navigator.clipboard) {
+        copyTextToClipboardOld(text);
+        return;
+      }
+      navigator.clipboard.writeText(text).then(function() {
+        console.log('Async: Copying to clipboard was successful!');
+      }, function(err) {
+        console.error('Async: Could not copy text: ', err);
+      });
+}
+
+function copyTextToClipboardOld (text) {
+    // Create new element
+    var el = document.createElement('textarea');
+    // Set value (string to be copied)
+    el.value = text;
+    // Set non-editable to avoid focus and move outside of view
+    el.setAttribute('readonly', '');
+    el.style = {position: 'absolute', left: '-9999px'};
+    document.body.appendChild(el);
+    // Select text inside element
+    el.select();
+    // Copy text to clipboard
+    document.execCommand('copy');
+    // Remove temporary element
+    document.body.removeChild(el);
+ }
 
 function drawBoard() {
     let words = [];
