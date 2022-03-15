@@ -53,3 +53,7 @@ h1 {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
