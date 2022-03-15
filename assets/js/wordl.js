@@ -4,11 +4,13 @@ const MAX_GUESSES = 6;
 let guess_count = 0;
 let answer = [];
 let game_over = false;
+let require_macrons = false;
 
 document.addEventListener("DOMContentLoaded",function(){
     answer = WORDS[Math.floor(Math.random() * WORDS.length)].toLowerCase().split('');
     for (let i = 0; i < answer.length; i++) {
-        answer[i] = modernizeLetter(answer[i]);
+        const letter = require_macrons ? answer[i] : modernizeLetter(answer[i]);
+        answer[i] = letter;
     }
         
     drawBoard();
@@ -54,8 +56,7 @@ document.addEventListener('keyup', function(event) {
                 if (current_guess.join("") === answer.join("")) {
                     alert("þu dydest hit!");
                     game_over = true;
-                }
-                if (guess_count === MAX_GUESSES) {
+                } else if (guess_count === MAX_GUESSES) {
                     alert("þæt rihte word is: " + answer.join(""));
                     game_over = true;
                 }
@@ -64,12 +65,13 @@ document.addEventListener('keyup', function(event) {
             }   
             break;
         default:
-            const isValid = /^[a-zæþ]$/i.test(modernizeLetter(key))
-            if (key.length !== 1 || current_guess.length >= answer.length || !isValid) {
+            const inputLetter = require_macrons ? key : modernizeLetter(key);
+            const isValid = /^[a-zæþ]$/i.test(inputLetter);
+            if (inputLetter.length !== 1 || current_guess.length >= answer.length || !isValid) {
                 break;
             }
             
-            current_guess.push(key);
+            current_guess.push(inputLetter);
     }
 
     drawBoard();
@@ -79,7 +81,8 @@ function isWordInList(word){
     return WORDS.some(function(element, i) {
         element = element.toLowerCase().split('')
         for (var i = 0; i< element.length; i++) {
-            element[i] = modernizeLetter(element[i]);
+            const inputLetter = require_macrons ? element[i] : modernizeLetter(element[i]);
+            element[i] = inputLetter;
         }
 
         if (word.join('') === element.join('')) {
