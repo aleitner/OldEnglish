@@ -7,14 +7,30 @@ let game_over = false;
 let require_macrons = false;
 
 document.addEventListener("DOMContentLoaded",function(){
-    answer = WORDS[Math.floor(Math.random() * WORDS.length)].toLowerCase().split('');
+    const date = new Date();
+    const today = date.setHours(0, 0, 0, 0);
+    answer = WORDS[today % WORDS.length].toLowerCase().split(''); 
+
     for (let i = 0; i < answer.length; i++) {
-        const letter = require_macrons ? answer[i] : modernizeLetter(answer[i]);
-        answer[i] = letter;
+        answer[i] = modernizeLetter(answer[i]);
     }
         
     drawBoard();
 });
+
+function reset() {
+    current_guess = [];
+    guesses = [];
+    guess_count = 0;
+    game_over = false;
+
+    answer = WORDS[Math.floor(Math.random() * WORDS.length)].toLowerCase().split('');
+    for (let i = 0; i < answer.length; i++) {
+        answer[i] = modernizeLetter(answer[i]);
+    }
+        
+    drawBoard();
+}
 
 document.getElementById("keyboard-cont").addEventListener("click", function(event) {
     const target = event.target
@@ -66,7 +82,7 @@ document.addEventListener('keyup', function(event) {
             }   
             break;
         default:
-            const inputLetter = require_macrons ? key : modernizeLetter(key);
+            const inputLetter = modernizeLetter(key);
             const isValid = /^[a-zæþ]$/i.test(inputLetter);
             if (inputLetter.length !== 1 || current_guess.length >= answer.length || !isValid) {
                 break;
@@ -82,8 +98,7 @@ function isWordInList(word){
     return WORDS.some(function(element, i) {
         element = element.toLowerCase().split('')
         for (var i = 0; i< element.length; i++) {
-            const inputLetter = require_macrons ? element[i] : modernizeLetter(element[i]);
-            element[i] = inputLetter;
+            element[i] =  modernizeLetter(element[i]);
         }
 
         if (word.join('') === element.join('')) {
@@ -230,33 +245,37 @@ function modernizeLetter(letter) {
         case 'ᵹ':
             letter = 'g';
             break;
-        case 'ā':
-            letter = 'a';
-            break;
-        case 'ē':
-            letter = 'e';
-            break;
-        case 'ī':
-            letter = 'i';
-            break;
-        case 'ō':
-            letter = 'o';
-            break;
-        case 'ū':
-            letter = 'u';
-            break;
-        case 'ǣ':
-            letter = 'æ';
-            break;
-        case 'ȳ':
-            letter = 'y';
-            break;
         case 'ð':
             letter = 'þ';
             break;
-        default:
     }
-    
+
+    if (!require_macrons) {
+        switch (letter) {
+            case 'ā':
+                letter = 'a';
+                break;
+            case 'ē':
+                letter = 'e';
+                break;
+            case 'ī':
+                letter = 'i';
+                break;
+            case 'ō':
+                letter = 'o';
+                break;
+            case 'ū':
+                letter = 'u';
+                break;
+            case 'ǣ':
+                letter = 'æ';
+                break;
+            case 'ȳ':
+                letter = 'y';
+                break;
+        }
+    }
+
     return letter;
 }
 
