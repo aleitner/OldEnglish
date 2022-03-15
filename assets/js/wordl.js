@@ -6,7 +6,7 @@ let answer = [];
 let game_over = false;
 
 document.addEventListener("DOMContentLoaded",function(){
-    answer = WORDS[Math.floor(Math.random() * WORDS.length)].split('');
+    answer = WORDS[Math.floor(Math.random() * WORDS.length)].toLowerCase().split('');
     for (let i = 0; i < answer.length; i++) {
         answer[i] = modernizeLetter(answer[i]);
     }
@@ -43,7 +43,7 @@ document.addEventListener('keyup', function(event) {
             break;
         case 'enter': // If backspace key is pressed
             if (current_guess.length == answer.length) {
-                if (WORDS.indexOf(current_guess.join("")) == -1) {
+                if (!isWordInList(current_guess)) {
                     alert("þæt nis word");
                     return
                 }
@@ -74,6 +74,20 @@ document.addEventListener('keyup', function(event) {
 
     drawBoard();
 });
+
+function isWordInList(word){
+    return WORDS.some(function(element, i) {
+        element = element.toLowerCase().split('')
+        for (var i = 0; i< element.length; i++) {
+            element[i] = modernizeLetter(element[i]);
+        }
+
+        if (word.join('') === element.join('')) {
+            index = i;
+            return true;
+        }
+    });
+}
 
 function drawBoard() {
     let words = [];
