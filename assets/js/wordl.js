@@ -2,10 +2,15 @@ let current_guess = [];
 let guesses = [];
 const MAX_GUESSES = 6;
 let guess_count = 0;
-let answer = WORDS[Math.floor(Math.random() * WORDS.length)].split('');
+let answer = [];
 let game_over = false;
 
 document.addEventListener("DOMContentLoaded",function(){
+    answer = WORDS[Math.floor(Math.random() * WORDS.length)].split('');
+    for (let i = 0; i < answer.length; i++) {
+        answer[i] = modernizeLetter(answer[i]);
+    }
+        
     drawBoard();
 });
 
@@ -185,7 +190,7 @@ function modernizeLetter(letter) {
 // Select keyboard button
 function getButtonByText(str) {
     return Array.prototype.slice.call(document.getElementsByTagName('button')).filter(el => el.textContent.trim() === str.trim());
-  }
+}
 
 function shadeKeyBoard(letter, color) {
     let elems = getButtonByText(letter);
