@@ -52,7 +52,7 @@ var resources_json = [
         "type" : "Book",
         "hyperlinks": {"amazon": "https://www.amazon.com/dp/189828167X"},
         "tags": ["textbook"],
-        "desc": ""
+        "desc": "very beginner friendly, but unfortunately riddled with errors"
     },
     {
         "title" : "Beginning Old English, 2nd Edition",
@@ -79,7 +79,7 @@ var resources_json = [
         "type" : "Book",
         "hyperlinks": {"amazon": "https://www.amazon.com/dp/086698514X"},
         "tags": ["textbook"],
-        "desc": ""
+        "desc": "A free, open access introductory book by one of the leading scholars in the field."
     },
     {
         "title" : "Elementary Old English: An Introduction to the Language",
@@ -93,7 +93,7 @@ var resources_json = [
     {
         "title" : "An Old English Grammar and Exercise Book",
         "authors": ["Charles Alphonso Smith"],
-        "date": "2019",
+        "date": "1903",
         "type" : "Book",
         "hyperlinks": {"amazon": "https://www.amazon.com/dp/0469337346"},
         "tags": ["textbook"],
